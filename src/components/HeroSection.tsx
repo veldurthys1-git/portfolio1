@@ -102,7 +102,7 @@ const HeroSection: React.FC = () => {
               <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-br from-primary-100 via-white to-secondary-100 dark:from-primary-900/20 dark:via-dark-800 dark:to-secondary-900/20 rounded-xl transform rotate-3"></div>
               <div className="absolute inset-2 overflow-hidden rounded-xl bg-white dark:bg-dark-700 shadow-xl transform -rotate-3">
                 <img 
-                  src="Main.jpg" 
+                  src={`${import.meta.env.BASE_URL}Main.jpg`}
                   alt="Professional portrait" 
                   className="w-full h-full object-cover"
                 />

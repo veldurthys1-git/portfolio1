@@ -94,11 +94,11 @@ const TimelineItem: React.FC<TimelineItemProps> = ({ experience, index, inView }
 
   return (
     <div className="relative grid grid-cols-9 items-start min-h-[240px]">
-      {/* Vertical line */}
-      <div className="absolute top-0 bottom-0 left-1/2 transform -translate-x-1/2 w-px bg-gray-300 dark:bg-dark-700 z-0" />
+      {/* Vertical line (only on md+) */}
+      <div className="hidden md:block absolute top-0 bottom-0 left-1/2 transform -translate-x-1/2 w-px bg-gray-300 dark:bg-dark-700 z-0" />
 
       {/* Icon */}
-      <div className="absolute top-6 left-1/2 transform -translate-x-1/2 z-10">
+      <div className="absolute md:top-6 top-6 left-1 md:left-1/2 md:transform md:-translate-x-1/2 z-10">
         <div className="w-8 h-8 rounded-full bg-primary-500 flex items-center justify-center shadow-lg">
           <Briefcase size={16} className="text-white" />
         </div>
@@ -110,7 +110,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({ experience, index, inView }
           initial={{ opacity: 0, x: -20 }}
           animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
           transition={{ delay: 0.1 * index, duration: 0.5 }}
-          className="col-span-9 md:col-span-4 md:col-start-1 order-2 md:order-1"
+          className="col-span-9 md:col-span-4 md:col-start-1 order-2 md:order-1 pl-12 md:pl-0"
         >
           <CardContent experience={experience} />
         </motion.div>
@@ -122,7 +122,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({ experience, index, inView }
           initial={{ opacity: 0, x: 20 }}
           animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: 20 }}
           transition={{ delay: 0.1 * index, duration: 0.5 }}
-          className="col-span-9 md:col-span-4 md:col-start-6 order-3"
+          className="col-span-9 md:col-span-4 md:col-start-6 order-3 pl-12 md:pl-0"
         >
           <CardContent experience={experience} />
         </motion.div>
