@@ -5,18 +5,17 @@ import { skills } from '../data';
 import { Skill } from '../types';
 
 export const categories = [
-  { id: 'all', label: 'All Skills' },
   { id: 'frontend', label: 'Frontend' },
   { id: 'backend', label: 'Backend' },
   { id: 'cloud', label: 'Cloud Platforms' },
   { id: 'devops', label: 'DevOps & Automation' },
   { id: 'project', label: 'Engineering Practices' },
+  { id: 'data', label: 'ML & NLP'}
 ];
 
 
-
 const SkillsSection: React.FC = () => {
-  const [activeCategory, setActiveCategory] = useState('all');
+  const [activeCategory, setActiveCategory] = useState('frontend');
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,

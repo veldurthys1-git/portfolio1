@@ -31,7 +31,7 @@ const HeroSection: React.FC = () => {
                 transition={{ delay: 0.3, duration: 0.5 }}
                 className="inline-block px-3 py-1 text-sm font-medium rounded-full bg-primary-100 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 mb-4"
               >
-                Python Full Stack Developer
+                Data & Machine Learning Engineer
               </motion.span>
               <motion.h1 
                 initial={{ opacity: 0, y: 20 }}
@@ -47,7 +47,7 @@ const HeroSection: React.FC = () => {
                 transition={{ delay: 0.5, duration: 0.5 }}
                 className="text-sm md:text-base text-dark-500 dark:text-gray-300 mb-8 max-w-2xl"
               >
-                I build scalable, secure backend systems and cloud-native applications using modern technologies like Python, FastAPI, and Django. Passionate about optimizing performance and data workflows, I focus on delivering efficient, reliable solutions that power real-world platforms and enhance user experiences behind the scenes.
+                I build scalable APIs, secure cloud-native applications, and machine learning pipelines. With a strong focus on performance optimization and automation, I work with modern technologies like FastAPI, Django, and cloud platforms such as AWS and GCP. Passionate about data workflows and AI applications like NLP and GenAI, I aim to deliver efficient, reliable solutions that power real-world platforms and enhance user experiences behind the scenes.
               </motion.p>
             </div>
 
@@ -102,7 +102,7 @@ const HeroSection: React.FC = () => {
               <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-br from-primary-100 via-white to-secondary-100 dark:from-primary-900/20 dark:via-dark-800 dark:to-secondary-900/20 rounded-xl transform rotate-3"></div>
               <div className="absolute inset-2 overflow-hidden rounded-xl bg-white dark:bg-dark-700 shadow-xl transform -rotate-3">
                 <img 
-                  src={`${import.meta.env.BASE_URL}Main.jpg`}
+                  src="Main.jpg" 
                   alt="Professional portrait" 
                   className="w-full h-full object-cover"
                 />

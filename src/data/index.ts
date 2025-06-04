@@ -34,7 +34,9 @@ export const skills: Skill[] = [
   // Cloud Platforms
   { name: 'AWS', level: 85, category: 'cloud' },
   { name: 'GCP', level: 80, category: 'cloud' },
-  { name: 'Azure', level: 70, category: 'cloud' },
+  { name: 'Azure', level: 80, category: 'cloud' },
+  { name: 'Azure Synapse', level: 80, category: 'cloud' },
+  { name: 'AWS SageMaker', level: 80, category: 'cloud' },
 
   // DevOps & Automation
   { name: 'Shell Scripting', level: 75, category: 'devops' },
@@ -54,92 +56,81 @@ export const skills: Skill[] = [
   { name: 'Scrum', level: 85, category: 'project' },
   { name: 'TDD', level: 75, category: 'project' },
   { name: 'OAuth2.0', level: 75, category: 'project' },
-  { name: 'JWT', level: 75, category: 'project' }
+  { name: 'JWT', level: 75, category: 'project' },
+
+    // ML & NLP
+  { name: 'TensorFlow', level: 80, category: 'data' },
+  { name: 'Scikit-learn', level: 85, category: 'data' },
+  { name: 'XGBoost', level: 80, category: 'data' },
+  { name: 'spaCy', level: 80, category: 'data' },
+  { name: 'Hugging Face Transformers', level: 75, category: 'data' },
+  { name: 'OpenCV', level: 80, category: 'data' }
 ];
 
 
 
 export const professionalExperience: Experience[] = [
   {
-    title: 'System Engineer (Cloud Backend Developer)',
+    title: 'Big Data Engineer',
     company: 'Infosys Pvt. Ltd.',
     location: 'Hyderabad, India',
     startDate: 'June 2021',
-    endDate: 'Nov 2022',
+    endDate: 'Dec 2022',
     description: [
-      'Built microservices using FastAPI and Django that handled over 1 million API requests per day, reducing latency by 35%.',
-      'Deployed applications on AWS EKS with Terraform, ensuring 99.99% uptime in production.' ,
-      'Created CI/CD pipelines using GitHub Actions and Jenkins, cutting deployment errors by 90% and speeding up releases by 60%.',
-      'Implemented secure authentication with OAuth2.0 and JWT, supporting 10,000+ concurrent users without breaches.',
-      'Optimized data pipelines with Airflow and Kafka, reducing data delivery time from hours to under 5 minutes.',
+      'Developed scalable big data pipelines using Apache Spark and Hadoop on Azure Synapse & HDInsight, processing 15TB+ data daily for telecom and BFSI clients.',
+      'Built NLP pipelines using spaCy and Hugging Face Transformers for sentiment analysis and text classification, improving feedback processing accuracy by 28%.',
+      'Designed and deployed fraud detection and lead scoring ML models on AWS Glue, S3, and SageMaker, enhancing prediction accuracy by 25%.',
+      'Automated visual inspection in manufacturing using OpenCV and TensorFlow, reducing manual QA time by 60% and improving defect detection rates.',
+      'Migrated 40+ legacy ETL pipelines to cloud-native tools (Azure Data Factory, AWS Glue), cutting compute costs by 30% and increasing uptime.',
+      'Implemented real-time chatbot NLP APIs in collaboration with DS teams, decreasing response latency by 35% and boosting customer engagement.'
     ],
-    technologies: ['FastAPI', 'Django', 'Python', 'AWS EKS', 'Terraform', 'GitHub Actions', 'Jenkins', 'OAuth2.0', 'JWT', 'AWS Aurora', 'Amazon S3', 'PostgreSQL', 'Apache Airflow', 'Apache Kafka'],
+    technologies: [
+      'Apache Spark', 'Hadoop', 'Azure Synapse', 'HDInsight', 'spaCy', 'Hugging Face', 
+      'AWS Glue', 'Amazon S3', 'SageMaker', 'OpenCV', 'TensorFlow', 'Azure Data Factory'
+    ]
   },
   {
-    title: 'Associate Data Engineer (Python & Cloud Developer)',
+    title: 'Associate Data Engineer',
     company: 'Innominds Software Pvt. Ltd.',
     location: 'Hyderabad, India',
     startDate: 'Oct 2019',
-    endDate: 'July 2021',
+    endDate: 'June 2021',
     description: [
-      'Built ETL pipelines using Apache Airflow and Python, boosting data processing efficiency by 50% across 5+ business units.',
-      'Deployed apps on GCP Cloud Functions and AWS ECS, enabling autoscaling to handle 2x traffic without downtime.',
-      'Designed a real-time Spark + Kafka pipeline processing over 100K events/min, cutting insights latency from 1 hour to under 2 minutes.',
-      'Optimized PostgreSQL and Aurora for analytics, reducing query execution time by 40%.',
-      'Used Docker and cloud-native monitoring tools to ensure stable deployments and reduce production bugs and recovery time by 50%.',
+      'Created ETL pipelines with Python and Apache Airflow, processing 2TB+ data weekly across diverse sources.',
+      'Contributed to AWS S3-based data lake implementation using Glue and Athena, reducing BI query times by 30%.',
+      'Supported data warehouse integrations with Snowflake and Azure Synapse for 3 enterprise clients, improving cross-platform accessibility.',
+      'Automated data quality checks with PySpark and Great Expectations, boosting data reliability metrics by 25%.',
+      'Optimized feature extraction for ML workflows, reducing training prep time by 40% through efficient preprocessing.',
+      'Processed and annotated 500K+ images for CV models using Labelbox and custom Python tools, accelerating model development cycles.'
     ],
-    technologies: ['Apache Airflow', 'Python', 'GCP Cloud Functions', 'AWS ECS', 'Apache Spark', 'Apache Kafka', 'PostgreSQL', 'AWS Aurora', 'Docker', 'Cloud-native monitoring tools'],
+    technologies: [
+      'Python', 'Apache Airflow', 'AWS S3', 'Glue', 'Athena', 'Snowflake', 'Azure Synapse', 
+      'PySpark', 'Great Expectations', 'Labelbox'
+    ]
   },
 ];
 
+
 export const additionalExperience: Experience[] = [
   {
-    title: 'Cloud Computing Intern',
+    title: 'Internet of Things Intern',
     company: 'Guru Nanak Institutions',
     location: 'Hyderabad, India',
-    startDate: 'Sep 2018',
-    endDate: 'Aug 2019',
+    startDate: 'Aug 2018',
+    endDate: 'Oct 2019',
     description: [
-      'Deployed and managed 10+ cloud-native applications on GCP and AWS, improving scalability and reducing costs by 25%.',
-      'Used Docker for containerization to ensure consistent development and production environments.',
-      'Managed orchestration with Kubernetes to handle scalable deployments in production.',
-      'Automated cloud infrastructure provisioning using Infrastructure as Code (IaC) tools.',
-      'Secured 15+ API integrations with proper access controls for enhanced security.',
+      'Developed a smart parking prototype using Blynk and ultrasonic sensors, enabling real-time slot monitoring with 95% detection accuracy.',
+      'Integrated IoT hardware (ESP8266, sensors) with Blynk Cloud, achieving real-time data updates with under 2-second latency.',
+      'Reduced manual parking checks by over 80% through mobile-based automation and remote monitoring features.',
+      'Designed a modular architecture to support future IoT extensions such as environmental monitoring and traffic control.',
+      'Collaborated with a cross-functional team to present the system at a university tech expo, receiving recognition for innovation and usability.'
     ],
-    technologies: ['GCP', 'AWS', 'Docker', 'Kubernetes', 'Infrastructure as Code (IaC)', 'API integrations'],
-  },
-  {
-    title: 'Data Science and Machine learning through Python-Intern',
-    company: 'Aditi Digital Solutions',
-    location: 'Hyderabad, India',
-    startDate: 'Jan 2021',
-    endDate: 'June 2021',
-    description: [
-      'Built and deployed over 5 machine learning models using Python, Pandas, NumPy, and Scikit-Learn with 85%+ accuracy.',
-      'Designed efficient data pipelines, reducing model training and deployment time by 40%.',
-      'Collaborated with business teams to define 10+ key performance indicators (KPIs).',
-      'Developed interactive dashboards that improved data-driven decision-making by 30%.',
-      'Focused on delivering end-to-end ML solutions from data preparation to deployment.',
-    ],
-    technologies: ['Python', 'Pandas', 'NumPy', 'Scikit-Learn', 'Data Pipelines', 'Dashboards'],
-  },
+    technologies: ['ESP8266', 'Ultrasonic Sensors', 'Blynk Cloud', 'IoT Hardware']
+  }
 ];
 
 
 export const projects: Project[] = [
-  // ...existing projects
-  {
-    id: 'vm-cloud-deployment',
-    title: 'Virtual Machine Deployment on Cloud',
-    description:
-      'Deployed virtual machines on AWS and GCP to gain hands-on experience with cloud infrastructure. Configured IAM roles and security groups, and automated deployments using Terraform.',
-    image:
-      'https://images.pexels.com/photos/1181316/pexels-photo-1181316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    technologies: ['AWS', 'GCP', 'Terraform', 'IAM', 'Cloud Networking'],
-    liveUrl: 'https://www.youtube.com/watch?v=g2Il8cxNv18&ab_channel=KahanDataSolutions',
-    githubUrl: 'https://github.com/veldurthys1-git/cloud_vm_deployment',
-    featured: true,
-  },
   {
     id: 'sales-forecasting-ml',
     title: 'Sales Forecasting Using Machine Learning',
@@ -152,7 +143,32 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/veldurthys1-git/ml_sales_forecasting',
     featured: false,
   },
+  {
+    id: 'smart-car-parking',
+    title: 'Smart Car Parking using Blynk',
+    description:
+      'Designed an IoT-based smart parking prototype using ESP8266 and ultrasonic sensors. Integrated with Blynk Cloud for real-time slot monitoring with 95% accuracy and sub-2s latency. Reduced manual parking management by 80% through automation.',
+    image:
+      'https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    technologies: ['ESP8266', 'Ultrasonic Sensors', 'Blynk', 'IoT', 'Cloud Integration'],
+    liveUrl: 'https://www.youtube.com/watch?v=tjLAjGi6O5Q&ab_channel=ElectronicClinic',
+    githubUrl: 'https://github.com/veldurthys1-git/smart_parking_iot',
+    featured: true,
+  },
+  {
+    id: 'vm-cloud-deployment',
+    title: 'Virtual Machine Deployment on Cloud',
+    description:
+      'Deployed virtual machines on AWS and GCP to gain hands-on experience with cloud infrastructure. Configured IAM roles and security groups, and automated deployments using Terraform.',
+    image:
+      'https://images.pexels.com/photos/1181316/pexels-photo-1181316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    technologies: ['AWS', 'GCP', 'Terraform', 'IAM', 'Cloud Networking'],
+    liveUrl: 'https://www.youtube.com/watch?v=g2Il8cxNv18&ab_channel=KahanDataSolutions',
+    githubUrl: 'https://github.com/veldurthys1-git/cloud_vm_deployment',
+    featured: false,
+  },
 ];
+
 
 
 export const education: Education[] = [
@@ -218,13 +234,11 @@ export const socialLinks: SocialLink[] = [
 
 export const aboutMe = {
   title: 'About Me',
-  description: `Hi, I’m Saicharan Veldurthy, a Python Backend Developer with over 3.5 years of experience specializing in building scalable, cloud-native systems. My core expertise lies in FastAPI, Flask, and developing RESTful APIs for high-performance GenAI and Retrieval-Augmented Generation (RAG) applications.
+  description: `Hello, I’m Saicharan Veldurthy, a Data and Machine Learning Engineer with over 4 years of experience in data engineering, NLP, and cloud-based AI solutions. I’ve worked on building large-scale data pipelines, deploying machine learning models, and designing backend services that power real-time analytics and intelligent applications.
 
-I’ve designed and deployed prompt pipelines using LangChain and OpenAI, enabling real-time classification, summarization, and data extraction. My backend work is often integrated with vector databases like Pinecone and FAISS, and seamlessly connects with frontend systems built in React and Node.js.
+At Infosys and Innominds, I’ve contributed to projects across telecom, banking, manufacturing, and customer experience—ranging from fraud detection and lead scoring to chatbot NLP and computer vision for quality inspection. I’m proficient with tools like Python, Spark, Airflow, and cloud platforms including AWS, Azure, and GCP.
 
-In production, I work extensively with Google Cloud Platform, leveraging Cloud Run, Pub/Sub, and Firestore, along with CI/CD pipelines using GitHub Actions. I ensure code reliability with 95%+ test coverage through PyTest, and prioritize clean, secure implementations using OAuth2, JWT, and best practices for GDPR and ISO 27001 compliance.
-
-I hold a Master’s in Computer Science from the University of Dayton and bring a strong foundation in AI infrastructure, data engineering, and automation. I’m passionate about solving complex problems and contributing to teams at the forefront of machine learning and cloud technologies.`,
+I hold a Master’s degree in Computer Science from the University of Dayton and am passionate about solving real-world problems with data—whether it’s improving prediction accuracy, reducing latency, or automating manual processes. I’m continuously learning and exploring new ways to apply AI and big data to make systems smarter, faster, and more efficient.`,
 };
 
 export const contactInfo = {

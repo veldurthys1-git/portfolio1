@@ -6,7 +6,7 @@ export interface NavItem {
 export interface Skill {
   name: string;
   level: number; // 0-100
-  category: 'frontend' | 'backend' | 'cloud' | 'devops' | 'project';
+  category: 'frontend' | 'backend' | 'cloud' | 'devops' | 'project' | 'data';
 }
 
 export interface Experience {
