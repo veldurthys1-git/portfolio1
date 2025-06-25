@@ -31,7 +31,7 @@ const HeroSection: React.FC = () => {
                 transition={{ delay: 0.3, duration: 0.5 }}
                 className="inline-block px-3 py-1 text-sm font-medium rounded-full bg-primary-100 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 mb-4"
               >
-                Data & Machine Learning Engineer
+                Full Stack Developer & Data Engineer
               </motion.span>
               <motion.h1 
                 initial={{ opacity: 0, y: 20 }}
@@ -47,7 +47,7 @@ const HeroSection: React.FC = () => {
                 transition={{ delay: 0.5, duration: 0.5 }}
                 className="text-sm md:text-base text-dark-500 dark:text-gray-300 mb-8 max-w-2xl"
               >
-                I build scalable APIs, secure cloud-native applications, and machine learning pipelines. With a strong focus on performance optimization and automation, I work with modern technologies like FastAPI, Django, and cloud platforms such as AWS and GCP. Passionate about data workflows and AI applications like NLP and GenAI, I aim to deliver efficient, reliable solutions that power real-world platforms and enhance user experiences behind the scenes.
+                I delivered high-performance, cloud-native applications across healthcare, finance, and real estate domains. I specialize in building scalable RESTful APIs and microservices using Python frameworks like Django, Flask, and FastAPI. I’ve led large-scale data pipeline development, automated ETL workflows, and engineered secure, OAuth2-compliant systems integrated with AWS and GCP. With strong DevOps skills in Docker, Jenkins, and CI/CD, I’ve successfully modernized legacy systems, enhanced data workflows, and driven system performance improvements by up to 40%.
               </motion.p>
             </div>
 
@@ -102,7 +102,7 @@ const HeroSection: React.FC = () => {
               <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-br from-primary-100 via-white to-secondary-100 dark:from-primary-900/20 dark:via-dark-800 dark:to-secondary-900/20 rounded-xl transform rotate-3"></div>
               <div className="absolute inset-2 overflow-hidden rounded-xl bg-white dark:bg-dark-700 shadow-xl transform -rotate-3">
                 <img 
-                  src="Main.jpg" 
+                  src="IMG_0405.jpg" 
                   alt="Professional portrait" 
                   className="w-full h-full object-cover"
                 />
