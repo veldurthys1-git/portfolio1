@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://veldurthys1-git.github.io/portfolio1",
+  "homepage": "https://github.com/saicharan-207/portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
