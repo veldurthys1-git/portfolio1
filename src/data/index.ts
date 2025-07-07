@@ -58,65 +58,44 @@ export const skills: Skill[] = [
   { name: 'OAuth2.0', level: 75, category: 'project' },
   { name: 'JWT', level: 75, category: 'project' },
 
-    // ML & NLP
-  { name: 'TensorFlow', level: 80, category: 'data' },
-  { name: 'Scikit-learn', level: 85, category: 'data' },
-  { name: 'XGBoost', level: 80, category: 'data' },
-  { name: 'spaCy', level: 80, category: 'data' },
-  { name: 'Hugging Face Transformers', level: 75, category: 'data' },
-  { name: 'OpenCV', level: 80, category: 'data' }
 ];
 
 
 
 export const professionalExperience: Experience[] = [
   {
-    title: 'Senior Backend Engineer – Python & Embedded Systems (Model-Based Design)',
-    company: 'Wells Fargo',
-    location: 'Arizona, USA',
-    startDate: 'June 2024',
-    endDate: 'June 2025',
+    title: 'System Engineer',
+    company: 'Infosys Pvt. Ltd',
+    location: 'Hyderabad, India',
+    startDate: 'June 2021',
+    endDate: 'Dec 2022',
     description: [
-      'Developed secure RESTful APIs using Python and Flask for payment platforms, integrated with AWS Lambda and Fargate.',
-      'Built ETL pipelines for transaction data using Python and SQL, with schema validation and SLA monitoring.',
-      'Refactored legacy code into Python-based microservices with improved modularity and test coverage.',
-      'Implemented OAuth2 and JWT for secure authentication across internal and external APIs.',
-      'Deployed applications via CI/CD pipelines using Docker, Jenkins, and GitHub Actions.',
-      'Collaborated with DevOps and compliance teams to align solutions with cloud strategy and security standards.'
+      'Developed and deployed RESTful microservices using FastAPI and Django, increasing system modularity and reducing feature rollout time by 30%.',
+      'Designed and maintained containerized applications with Docker and Kubernetes (EKS), achieving 99.9% system uptime.',
+      'Built scalable, event-driven data pipelines using Apache Kafka and Apache Airflow, reducing data latency by 60%.',
+      'Implemented secure authentication using OAuth2 and JWT in REST APIs, enhancing application security and ensuring compliance with standards.',
+      'Automated CI/CD workflows via Jenkins and GitHub Actions, reducing deployment errors by 40% and accelerating release cycles.',
+      'Migrated on-premises applications to AWS (ECS, S3, Fargate), lowering infrastructure costs by 25% and improving system scalability.',
+      'Collaborated with cross-functional teams to enforce DevOps best practices, improve release reliability, and support continuous integration.'
     ],
-    technologies: ['Python', 'Flask', 'SQL Server', 'AWS Lambda', 'Docker', 'Jenkins', 'OAuth2', 'JWT', 'CI/CD']
+    technologies: ['Python', 'FastAPI', 'Django', 'Kafka', 'Airflow', 'Docker', 'Kubernetes', 'AWS ECS', 'OAuth2', 'JWT', 'Jenkins', 'GitHub Actions']
   },
   {
-    title: 'Senior Python Developer',
-    company: 'CareSource',
-    location: 'Texas, USA',
-    startDate: 'Jan 2023',
-    endDate: 'May 2024',
+    title: 'Associate Data Engineer',
+    company: 'Innominds Software Pvt. Ltd.',
+    location: 'Hyderabad, India',
+    startDate: 'May 2020',
+    endDate: 'June 2021',
     description: [
-      'Built APIs with Django and Flask for claims and patient data, secured with OAuth2 and JWT.',
-      'Designed healthcare ETL pipelines in Python for transforming eligibility and claims datasets.',
-      'Integrated React frontends with backend APIs for real-time dashboards.',
-      'Automated backend workflows using cron, Shell scripting, and PyTest for validation.',
-      'Migrated monolithic services to FastAPI-based microservices.',
-      'Maintained HIPAA-compliant data integrity and audit trails.'
+      'Engineered high-performance backend systems in Python and Java, supporting 1M+ daily API requests with <200ms average latency.',
+      'Created custom ETL pipelines using Apache Spark and PostgreSQL, processing over 50TB of data weekly for business analytics.',
+      'Integrated real-time monitoring and alerting with Prometheus and Grafana, reducing incident response times by 50%.',
+      'Containerized legacy systems and deployed them using AWS ECS with Auto Scaling, improving system resilience and scalability.',
+      'Partnered with frontend developers to deliver secure and responsive APIs using Flask, React, and HTML/CSS, enhancing UX and API performance.',
+      'Wrote shell scripts and CI hooks for build automation and environment provisioning, streamlining deployment and testing workflows.',
+      'Led the transition from monolith to microservices architecture using FastAPI and Docker, cutting system downtime by 35% and increasing deployment flexibility.'
     ],
-    technologies: ['Python', 'Django', 'Flask', 'FastAPI', 'React.js', 'SQL Server', 'JWT', 'HIPAA']
-  },
-  {
-    title: 'Python Developer',
-    company: 'CBRE Group',
-    location: 'Boston, MA, USA',
-    startDate: 'Dec 2019',
-    endDate: 'Nov 2022',
-    description: [
-      'Developed RESTful APIs with Flask and Django for internal dashboards and real estate analytics.',
-      'Created ETL pipelines for property and transaction data using Python and PostgreSQL.',
-      'Migrated Java modules to modular Python services, improving performance and scalability.',
-      'Integrated React interfaces and secured data using OAuth2 and JWT.',
-      'Automated backend jobs using Shell scripts and maintained CI/CD pipelines.',
-      'Participated in Agile development cycles and code reviews.'
-    ],
-    technologies: ['Python', 'Django', 'Flask', 'PostgreSQL', 'React', 'OAuth2', 'CI/CD']
+    technologies: ['Python', 'Java', 'Apache Spark', 'PostgreSQL', 'Prometheus', 'Grafana', 'Flask', 'React', 'FastAPI', 'Docker', 'AWS ECS', 'CI/CD']
   }
 ];
 
@@ -124,34 +103,17 @@ export const professionalExperience: Experience[] = [
 
 export const additionalExperience: Experience[] = [
   {
-    title: 'Software Engineer',
-    company: 'Infosys Ltd',
+    title: 'Cloud Computing Intern',
+    company: 'Guru Nanak Institutions Technical Campus',
     location: 'Hyderabad, India',
-    startDate: 'Mar 2018',
-    endDate: 'Nov 2019',
+    startDate: 'Sep 2019',
+    endDate: 'May 2020',
     description: [
-      'Built REST APIs using Java and Spring, integrated with SQL and NoSQL databases.',
-      'Automated system tasks using Shell scripting and Python.',
-      'Deployed services on AWS and Azure with CI/CD via Jenkins and Docker.',
-      'Implemented microservices and monitored performance using Splunk and Nagios.',
-      'Worked in Agile teams to deliver scalable enterprise applications.'
+      'Optimized AWS deployments to improve cloud resource utilization by 15%.',
+      'Automated maintenance tasks using Python and AWS Lambda, reducing manual effort by 40%.',
+      'Built CloudWatch dashboards to enhance monitoring, cutting incident detection time by 30%.'
     ],
-    technologies: ['Java', 'Spring', 'Python', 'AWS', 'Azure', 'Jenkins', 'Docker', 'SQL']
-  },
-  {
-    title: 'Associate Software Engineer',
-    company: 'Innominds',
-    location: 'Bangalore, India',
-    startDate: 'June 2017',
-    endDate: 'Feb 2018',
-    description: [
-      'Developed ETL pipelines using Python and Airflow for large-scale data processing.',
-      'Used Hadoop, Spark, and Kafka for big data analytics.',
-      'Built data quality checks and automated validations.',
-      'Supported data lakes on AWS S3 and Azure Blob Storage.',
-      'Collaborated with data scientists to streamline ML data flows.'
-    ],
-    technologies: ['Python', 'Airflow', 'Spark', 'Kafka', 'AWS S3', 'Azure', 'ETL']
+    technologies: ['AWS', 'Python', 'Lambda', 'CloudWatch']
   }
 ];
 
@@ -202,14 +164,14 @@ export const education: Education[] = [
     degree: 'Master of Science in Computer Science',
     institution: 'University of Dayton',
     location: 'Dayton, Ohio',
-    graduationDate: '',
+    graduationDate: '2024',
     description: 'Focused on advanced topics including cloud computing, distributed systems, machine learning, and backend development. Completed projects involving real-time data processing, API design, and secure system architecture. Gained hands-on experience with modern technologies like Python, Docker, Kubernetes, and cloud platforms such as AWS and GCP.',
   },
   {
     degree: 'Bachelor of Science in Electronics and Communication Engineering',
     institution: 'Guru Nanak University ',
     location: 'Hyderabad, India',
-    graduationDate: '',
+    graduationDate: '2020',
     description: 'Gained a strong foundation in electronics, signal processing, and communication systems. Developed problem-solving skills through coursework in embedded systems, digital logic, and microprocessors. Completed hands-on projects involving circuit design, IoT systems, and basic programming in C and Python.',
   },
 ];
@@ -219,59 +181,59 @@ export const testimonials: Testimonial[] = [
     content: "An exceptional backend engineer who consistently delivers high-performance, scalable systems. Saicharan’s expertise in Python, FastAPI, and cloud-native technologies made a measurable impact—reducing system latency by 35% and deployment errors by 90%.",
     author: '— Ravi Kulkarni',
     role: 'Senior Engineering Manager',
-    company: 'CareSource',
+    company: 'Infosys',
   },
   {
     content: 'Saicharan demonstrates a rare combination of deep technical skills and business insight. His work on data pipelines and real-time processing with Kafka and Spark greatly enhanced our data delivery and decision-making capabilities.',
     author: '— Priya Menon',
     role: 'Lead Data Engineer',
-    company: 'CBRE Gropu',
+    company: 'Innominds',
   },
   {
     content: 'A dependable team player with a strong DevOps mindset. Saicharan led critical cloud deployments using Terraform and Docker across AWS and GCP, helping us achieve 99.99% uptime and robust CI/CD workflows.',
     author: '— Neeraj Verma',
     role: 'Cloud Solutions Architect',
-    company: 'Infosys',
+    company: 'Guru Nanak University',
   },
 ];
 
 export const socialLinks: SocialLink[] = [
   {
     platform: 'GitHub',
-    url: 'https://github.com/saicharan-207',
+    url: 'https://github.com/veldurthys1-git',
     icon: 'Github',
   },
   {
     platform: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/sai-charan-22b39532a/',
+    url: 'https://www.linkedin.com/in/veldurthy-saicharan/',
     icon: 'Linkedin',
   },
   {
     platform: 'Twitter',
-    url: 'https://x.com/Veldurthysaich12',
+    url: 'https://x.com/Veldurthysaich1',
     icon: 'Twitter',
   },
   {
     platform: 'Email',
-    url: 'mailto:saicharanveldurthy01@gmail.com',
+    url: 'mailto:veldurthysaicharan5@gmail.com',
     icon: 'Mail',
   },
 ];
 
 export const aboutMe = {
   title: 'About Me',
-  description: `Hello, I’m Saicharan Veldurthy — a Data Engineer and Backend Developer with over 8 years of experience delivering high-performance systems across healthcare, finance, and real estate. I specialize in building scalable, secure backend services and data pipelines using Python, Django, Flask, FastAPI, and cloud-native technologies on AWS and GCP.
+  description: `Hello, I’m Saicharan Veldurthy, an Experienced Software Engineer with over 4 years of success designing and deploying scalable, cloud-native applications and infrastructure. I specialize in backend development using Python, Java, and modern frameworks like FastAPI, Django, and Flask. My expertise includes building secure REST APIs, managing event-driven data pipelines with Kafka and Airflow, and optimizing performance with tools like Spark and PostgreSQL.
 
-My expertise includes engineering ETL/ELT workflows, designing microservices architectures, and optimizing SQL-based data platforms like PostgreSQL and SQL Server. I’ve migrated legacy systems to cloud-native architectures, deployed event-driven solutions using AWS Lambda and Fargate, and implemented secure APIs with OAuth2 and JWT.
+I'm skilled in containerization and orchestration using Docker and Kubernetes (EKS), and I bring a strong DevOps mindset—automating CI/CD workflows with Jenkins and GitHub Actions, and delivering highly available systems on AWS (ECS, Lambda, Fargate, S3).
 
-I’m proficient in Docker, CI/CD (Jenkins, GitHub Actions), and Terraform, and I consistently align backend systems with security standards such as HIPAA and GDPR. I also enjoy mentoring, collaborating in Agile teams, and translating business needs into scalable, API-first data solutions.
+Recently completed my Master’s in Computer Science from the University of Dayton (Dec 2024), and hold certifications including AWS Solutions Architect – Associate, Certified Kubernetes Application Developer (CKAD), and Google Professional Data Engineer.
 
-I support Agile teams through planning and collaboration, mentor developers, and create documentation. I thrive in fast-paced environments, building scalable backend solutions that align with business goals.`,
+I’m passionate about building efficient, secure systems and continuously improving cloud architectures to drive business value.`,
 };
 
 
 export const contactInfo = {
-  email: 'saicharanveldurthy01@gmail.com',
+  email: 'veldurthysaicharan5@gmail.com',
   phone: '+1 (937)-829-0856',
   location: 'Mesa, Arizona',
 };

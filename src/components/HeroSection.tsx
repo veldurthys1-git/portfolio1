@@ -47,7 +47,7 @@ const HeroSection: React.FC = () => {
                 transition={{ delay: 0.5, duration: 0.5 }}
                 className="text-sm md:text-base text-dark-500 dark:text-gray-300 mb-8 max-w-2xl"
               >
-                I delivered high-performance, cloud-native applications across healthcare, finance, and real estate domains. I specialize in building scalable RESTful APIs and microservices using Python frameworks like Django, Flask, and FastAPI. I’ve led large-scale data pipeline development, automated ETL workflows, and engineered secure, OAuth2-compliant systems integrated with AWS and GCP. With strong DevOps skills in Docker, Jenkins, and CI/CD, I’ve successfully modernized legacy systems, enhanced data workflows, and driven system performance improvements by up to 40%.
+                I design and deliver high-performance, cloud-native applications by building scalable backend systems, secure APIs, and event-driven architectures. Proficient in Python, Java, and JavaScript, with expertise in frameworks like FastAPI, Django, and Flask. I’ve automated CI/CD pipelines, developed data pipelines using Kafka, Airflow, and Spark, and managed cloud deployments with AWS, Docker, and Kubernetes. With a strong focus on system performance, reliability, and DevOps best practices, I build production-ready solutions that scale efficiently.
               </motion.p>
             </div>
 
@@ -102,7 +102,7 @@ const HeroSection: React.FC = () => {
               <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-br from-primary-100 via-white to-secondary-100 dark:from-primary-900/20 dark:via-dark-800 dark:to-secondary-900/20 rounded-xl transform rotate-3"></div>
               <div className="absolute inset-2 overflow-hidden rounded-xl bg-white dark:bg-dark-700 shadow-xl transform -rotate-3">
                 <img 
-                  src="IMG_0405.jpg" 
+                  src="Main.jpg" 
                   alt="Professional portrait" 
                   className="w-full h-full object-cover"
                 />
