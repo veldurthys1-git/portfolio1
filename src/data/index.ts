@@ -123,12 +123,12 @@ export const projects: Project[] = [
     id: 'ai-resume-matcher',
     title: 'AI-Powered Resume Matcher',
     description:
-      'An AI-powered tool that compares resumes to job descriptions using semantic search and NLP. It analyzes skills, experience, and context to generate a relevance score, helping recruiters quickly identify top candidates beyond keyword matching.',
+      'Built a platform to match resumes with job descriptions using NLP and vector search. Used FastAPI, LangChain, and FAISS for semantic matching; integrated OpenAI embeddings, PDF parsing, and deployed via Docker on AWS with CI/CD. Showcases practical AI/ML, NLP, and cloud deployment skills.',
     image:
       'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     technologies: ['NLP', 'Semantic Search', 'Python', 'Transformers', 'Resume Parsing'],
-    liveUrl: 'https://veldurthys1-git.github.io/AI-Resume-Matcher/',
-    githubUrl: 'https://github.com/veldurthys1-git/ai-resume-matcher',
+    liveUrl: 'https://veldurthys1-git.github.io/AI-Powered-Resume-Matcher/',
+    githubUrl: 'https://github.com/veldurthys1-git/AI-Powered-Resume-Matcher',
     featured: true,
   },
   {
