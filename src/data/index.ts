@@ -120,6 +120,54 @@ export const additionalExperience: Experience[] = [
 
 export const projects: Project[] = [
   {
+    id: 'ai-resume-matcher',
+    title: 'AI-Powered Resume Matcher',
+    description:
+      'An AI-powered tool that compares resumes to job descriptions using semantic search and NLP. It analyzes skills, experience, and context to generate a relevance score, helping recruiters quickly identify top candidates beyond keyword matching.',
+    image:
+      'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    technologies: ['NLP', 'Semantic Search', 'Python', 'Transformers', 'Resume Parsing'],
+    liveUrl: 'https://veldurthys1-git.github.io/AI-Resume-Matcher/',
+    githubUrl: 'https://github.com/veldurthys1-git/ai-resume-matcher',
+    featured: true,
+  },
+  {
+    id: 'serverless-file-pipeline',
+    title: 'Serverless Event-Driven Application with AWS',
+    description:
+      'Built a serverless file processing pipeline using AWS Lambda, API Gateway, S3, and SNS, reducing operational overhead by 40% and enabling real-time processing of 10K+ uploads/month with JWT secured APIs.',
+    image:
+      'https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    technologies: ['AWS Lambda', 'API Gateway', 'S3', 'SNS', 'JWT'],
+    liveUrl: 'https://veldurthys1-git.github.io/Serverless-Event-Driven-Application-with-AWS/',
+    githubUrl: 'https://github.com/veldurthys1-git/Serverless-Event-Driven-Application-with-AWS',
+    featured: true,
+  },
+  {
+    id: 'saas-dashboard-fastapi',
+    title: 'Full-Stack SaaS Dashboard',
+    description:
+      'Developed a full-stack SaaS dashboard using FastAPI, PostgreSQL, and React, supporting 5K+ users/month with <150ms API latency and deployed via Kubernetes (EKS) with CI/CD and Prometheus-based monitoring.',
+    image:
+      'https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    technologies: ['FastAPI', 'PostgreSQL', 'React', 'Kubernetes (EKS)', 'CI/CD', 'Prometheus'],
+    liveUrl: 'https://veldurthys1-git.github.io/Full-Stack-SaaS-Dashboard/',
+    githubUrl: 'https://github.com/saicharan-207',
+    featured: true,
+  },
+  {
+    id: 'smart-car-parking',
+    title: 'Smart Car Parking using Blynk',
+    description:
+      'Designed an IoT-based smart parking prototype using ESP8266 and ultrasonic sensors. Integrated with Blynk Cloud for real-time slot monitoring with 95% accuracy and sub-2s latency. Reduced manual parking management by 80% through automation.',
+    image:
+      'https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    technologies: ['ESP8266', 'Ultrasonic Sensors', 'Blynk', 'IoT', 'Cloud Integration'],
+    liveUrl: 'https://veldurthys1-git.github.io/Smart-Car-Parking/',
+    githubUrl: 'https://github.com/saicharan-207',
+    featured: true,
+  },
+  {
     id: 'sales-forecasting-ml',
     title: 'Sales Forecasting Using Machine Learning',
     description:
@@ -130,18 +178,6 @@ export const projects: Project[] = [
     liveUrl: 'https://www.youtube.com/watch?v=pCuV_7H2vyQ&ab_channel=NicholasRenotte',
     githubUrl: 'https://github.com/veldurthys1-git/ml_sales_forecasting',
     featured: false,
-  },
-  {
-    id: 'smart-car-parking',
-    title: 'Smart Car Parking using Blynk',
-    description:
-      'Designed an IoT-based smart parking prototype using ESP8266 and ultrasonic sensors. Integrated with Blynk Cloud for real-time slot monitoring with 95% accuracy and sub-2s latency. Reduced manual parking management by 80% through automation.',
-    image:
-      'https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    technologies: ['ESP8266', 'Ultrasonic Sensors', 'Blynk', 'IoT', 'Cloud Integration'],
-    liveUrl: 'https://www.youtube.com/watch?v=tjLAjGi6O5Q&ab_channel=ElectronicClinic',
-    githubUrl: 'https://github.com/saicharan-207',
-    featured: true,
   },
   {
     id: 'vm-cloud-deployment',
@@ -155,31 +191,8 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/veldurthys1-git/cloud_vm_deployment',
     featured: false,
   },
-  {
-    id: 'serverless-file-pipeline',
-    title: 'Serverless Event-Driven Application with AWS',
-    description:
-      'Built a serverless file processing pipeline using AWS Lambda, API Gateway, S3, and SNS, reducing operational overhead by 40% and enabling real-time processing of 10K+ uploads/month with JWT secured APIs.',
-    image:
-      'https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    technologies: ['AWS Lambda', 'API Gateway', 'S3', 'SNS', 'JWT'],
-    liveUrl: 'https://www.youtube.com/watch?v=5rG-YgTHMC8&ab_channel=DigitalCloudTraining',
-    githubUrl: 'https://github.com/veldurthys1-git/Serverless-Event-Driven-Application-with-AWS',
-    featured: true,
-  },
-  {
-    id: 'saas-dashboard-fastapi',
-    title: 'Full-Stack SaaS Dashboard',
-    description:
-      'Developed a full-stack SaaS dashboard using FastAPI, PostgreSQL, and React, supporting 5K+ users/month with <150ms API latency and deployed via Kubernetes (EKS) with CI/CD and Prometheus-based monitoring.',
-    image:
-      'https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    technologies: ['FastAPI', 'PostgreSQL', 'React', 'Kubernetes (EKS)', 'CI/CD', 'Prometheus'],
-    liveUrl: '',
-    githubUrl: 'https://github.com/saicharan-207',
-    featured: true,
-  },
 ];
+
 
 
 
