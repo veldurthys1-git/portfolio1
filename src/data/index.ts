@@ -128,7 +128,7 @@ export const projects: Project[] = [
       'https://images.pexels.com/photos/669619/pexels-photo-669619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     technologies: ['Python', 'Scikit-learn', 'Pandas', 'NumPy', 'Matplotlib'],
     liveUrl: 'https://www.youtube.com/watch?v=pCuV_7H2vyQ&ab_channel=NicholasRenotte',
-    githubUrl: 'https://github.com/saicharan-207',
+    githubUrl: 'https://github.com/veldurthys1-git/ml_sales_forecasting',
     featured: false,
   },
   {
@@ -152,10 +152,35 @@ export const projects: Project[] = [
       'https://images.pexels.com/photos/1181316/pexels-photo-1181316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     technologies: ['AWS', 'GCP', 'Terraform', 'IAM', 'Cloud Networking'],
     liveUrl: 'https://www.youtube.com/watch?v=g2Il8cxNv18&ab_channel=KahanDataSolutions',
-    githubUrl: 'https://github.com/saicharan-207',
+    githubUrl: 'https://github.com/veldurthys1-git/cloud_vm_deployment',
     featured: false,
   },
+  {
+    id: 'serverless-file-pipeline',
+    title: 'Serverless Event-Driven Application with AWS',
+    description:
+      'Built a serverless file processing pipeline using AWS Lambda, API Gateway, S3, and SNS, reducing operational overhead by 40% and enabling real-time processing of 10K+ uploads/month with JWT secured APIs.',
+    image:
+      'https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    technologies: ['AWS Lambda', 'API Gateway', 'S3', 'SNS', 'JWT'],
+    liveUrl: 'https://www.youtube.com/watch?v=5rG-YgTHMC8&ab_channel=DigitalCloudTraining',
+    githubUrl: 'https://github.com/veldurthys1-git/Serverless-Event-Driven-Application-with-AWS',
+    featured: true,
+  },
+  {
+    id: 'saas-dashboard-fastapi',
+    title: 'Full-Stack SaaS Dashboard',
+    description:
+      'Developed a full-stack SaaS dashboard using FastAPI, PostgreSQL, and React, supporting 5K+ users/month with <150ms API latency and deployed via Kubernetes (EKS) with CI/CD and Prometheus-based monitoring.',
+    image:
+      'https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    technologies: ['FastAPI', 'PostgreSQL', 'React', 'Kubernetes (EKS)', 'CI/CD', 'Prometheus'],
+    liveUrl: '',
+    githubUrl: 'https://github.com/saicharan-207',
+    featured: true,
+  },
 ];
+
 
 
 
