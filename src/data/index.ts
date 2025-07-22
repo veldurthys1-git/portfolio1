@@ -270,7 +270,7 @@ export const socialLinks: SocialLink[] = [
   },
   {
     platform: 'Email',
-    url: 'mailto:veldurthysaicharan5@gmail.com',
+    url: 'mailto:veldurthys1@gmail.com',
     icon: 'Mail',
   },
 ];
@@ -288,7 +288,7 @@ I’m passionate about building efficient, secure systems and continuously impro
 
 
 export const contactInfo = {
-  email: 'veldurthysaicharan5@gmail.com',
+  email: 'veldurthys1@gmail.com',
   phone: '+1 (937)-829-0856',
   location: 'Mesa, Arizona',
 };
