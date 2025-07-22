@@ -64,38 +64,38 @@ export const skills: Skill[] = [
 
 export const professionalExperience: Experience[] = [
   {
-    title: 'System Engineer',
+    title: 'Data & Cloud Engineering Intern',
+    company: 'NexusBlue',
+    location: 'Phoenix, AZ',
+    startDate: 'Mar 2024',
+    endDate: 'Present',
+    description: [
+      'Designing and automating ETL workflows with Airflow and Lambda, improving data availability by 40%.',
+      'Developing integration processes for seamless data ingestion and transformation from diverse sources.',
+      'Building and deploying real-time microservices with Docker and ECS, reducing data latency by 25%.',
+      'Delivering API-driven services to enhance platform responsiveness and data access.',
+      'Implementing observability with Prometheus and Grafana, cutting incident response time by 50%.',
+      'Automating infrastructure to support continuous data delivery and scaling.',
+      'Enhancing system resilience and maintainability through optimization and containerization.'
+    ],
+    technologies: ['Apache Airflow', 'AWS Lambda', 'Docker', 'AWS ECS', 'Prometheus', 'Grafana', 'API Development', 'Data Integration', 'Automation', 'Scalability Engineering', 'System Reliability', 'Real-Time Data Access']
+  },
+  {
+    title: 'Data Engineer',
     company: 'Infosys Pvt. Ltd',
     location: 'Hyderabad, India',
     startDate: 'June 2021',
     endDate: 'Dec 2022',
     description: [
-      'Developed and deployed RESTful microservices using FastAPI and Django, increasing system modularity and reducing feature rollout time by 30%.',
-      'Designed and maintained containerized applications with Docker and Kubernetes (EKS), achieving 99.9% system uptime.',
-      'Built scalable, event-driven data pipelines using Apache Kafka and Apache Airflow, reducing data latency by 60%.',
-      'Implemented secure authentication using OAuth2 and JWT in REST APIs, enhancing application security and ensuring compliance with standards.',
-      'Automated CI/CD workflows via Jenkins and GitHub Actions, reducing deployment errors by 40% and accelerating release cycles.',
-      'Migrated on-premises applications to AWS (ECS, S3, Fargate), lowering infrastructure costs by 25% and improving system scalability.',
-      'Collaborated with cross-functional teams to enforce DevOps best practices, improve release reliability, and support continuous integration.'
+      'Developed RESTful microservices with FastAPI and Django, reducing feature rollout time by 30%.',
+      'Managed containerized apps using Docker and Kubernetes (EKS), ensuring 99.9% uptime.',
+      'Built event-driven data pipelines with Kafka and Airflow, cutting data latency by 60%.',
+      'Implemented OAuth2 and JWT in APIs to improve security and standards compliance.',
+      'Automated CI/CD with Jenkins and GitHub Actions, reducing deployment errors by 40%.',
+      'Migrated apps to AWS (ECS, S3, Fargate), cutting infrastructure costs by 25%.',
+      'Collaborated across teams to drive DevOps adoption and improve release reliability.'
     ],
     technologies: ['Python', 'FastAPI', 'Django', 'Kafka', 'Airflow', 'Docker', 'Kubernetes', 'AWS ECS', 'OAuth2', 'JWT', 'Jenkins', 'GitHub Actions']
-  },
-  {
-    title: 'Associate Data Engineer',
-    company: 'Innominds Software Pvt. Ltd.',
-    location: 'Hyderabad, India',
-    startDate: 'May 2020',
-    endDate: 'June 2021',
-    description: [
-      'Engineered high-performance backend systems in Python and Java, supporting 1M+ daily API requests with <200ms average latency.',
-      'Created custom ETL pipelines using Apache Spark and PostgreSQL, processing over 50TB of data weekly for business analytics.',
-      'Integrated real-time monitoring and alerting with Prometheus and Grafana, reducing incident response times by 50%.',
-      'Containerized legacy systems and deployed them using AWS ECS with Auto Scaling, improving system resilience and scalability.',
-      'Partnered with frontend developers to deliver secure and responsive APIs using Flask, React, and HTML/CSS, enhancing UX and API performance.',
-      'Wrote shell scripts and CI hooks for build automation and environment provisioning, streamlining deployment and testing workflows.',
-      'Led the transition from monolith to microservices architecture using FastAPI and Docker, cutting system downtime by 35% and increasing deployment flexibility.'
-    ],
-    technologies: ['Python', 'Java', 'Apache Spark', 'PostgreSQL', 'Prometheus', 'Grafana', 'Flask', 'React', 'FastAPI', 'Docker', 'AWS ECS', 'CI/CD']
   }
 ];
 
@@ -103,8 +103,25 @@ export const professionalExperience: Experience[] = [
 
 export const additionalExperience: Experience[] = [
   {
-    title: 'Cloud Computing Intern',
-    company: 'Guru Nanak Institutions Technical Campus',
+    title: 'Associate Data Engineer',
+    company: 'Innominds Software Pvt. Ltd.',
+    location: 'Hyderabad, India',
+    startDate: 'May 2020',
+    endDate: 'June 2021',
+    description: [
+      'Built backend systems in Python and Java, handling 1M+ daily API calls with <200ms latency.',
+      'Developed ETL pipelines using Spark and PostgreSQL to process 50TB+ of data weekly.',
+      'Integrated monitoring with Prometheus and Grafana, reducing incident response time by 50%.',
+      'Containerized legacy apps and deployed via AWS ECS with Auto Scaling for better resilience.',
+      'Collaborated on APIs using Flask, React, and HTML/CSS, improving performance and UX.',
+      'Automated builds and provisioning with shell scripts and CI hooks to streamline workflows.',
+      'Led migration to microservices with FastAPI and Docker, reducing downtime by 35%.'
+    ],
+    technologies: ['Python', 'Java', 'Apache Spark', 'PostgreSQL', 'Prometheus', 'Grafana', 'Flask', 'React', 'FastAPI', 'Docker', 'AWS ECS', 'CI/CD']
+  },
+  {
+    title: 'Cloud & Automation - Intern',
+    company: 'Aditi Digital Solutions',
     location: 'Hyderabad, India',
     startDate: 'Sep 2019',
     endDate: 'May 2020',
@@ -132,15 +149,15 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    id: 'serverless-file-pipeline',
-    title: 'Serverless Event-Driven Application with AWS',
+    id: 'real-time-hospital-dashboard',
+    title: 'Real-Time Hospital Operations Dashboard',
     description:
-      'Built a serverless file processing pipeline using AWS Lambda, API Gateway, S3, and SNS, reducing operational overhead by 40% and enabling real-time processing of 10K+ uploads/month with JWT secured APIs.',
+      'Built a real-time hospital dashboard with metrics on patients, staff, beds, departments, and alerts. Developed using React, TypeScript, and Tailwind CSS, with Lucide icons and modular components. Designed for live health data monitoring and intuitive admin visualization.',
     image:
-      'https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    technologies: ['AWS Lambda', 'API Gateway', 'S3', 'SNS', 'JWT'],
-    liveUrl: 'https://veldurthys1-git.github.io/Serverless-Event-Driven-Application-with-AWS/',
-    githubUrl: 'https://github.com/veldurthys1-git/Serverless-Event-Driven-Application-with-AWS',
+      'https://images.pexels.com/photos/7088539/pexels-photo-7088539.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    technologies: ['Data Modeling', 'Domain Mapping & SSL', 'Monitoring', 'Infrastructure as Code (IaC)', 'Cloud Deployment', 'Real-Time Dashboard'],
+    liveUrl: 'https://veldurthys1-git.github.io/Real-Time-Healthcare-Ops-Dashboard/',
+    githubUrl: 'https://github.com/veldurthys1-git/Real-Time-Healthcare-Ops-Dashboard',
     featured: true,
   },
   {
@@ -175,8 +192,8 @@ export const projects: Project[] = [
     image:
       'https://images.pexels.com/photos/669619/pexels-photo-669619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     technologies: ['Python', 'Scikit-learn', 'Pandas', 'NumPy', 'Matplotlib'],
-    liveUrl: 'https://www.youtube.com/watch?v=pCuV_7H2vyQ&ab_channel=NicholasRenotte',
-    githubUrl: 'https://github.com/veldurthys1-git/ml_sales_forecasting',
+    liveUrl: 'https://veldurthys1-git.github.io/Sales-Forecasting-Using-Machine-Learning/',
+    githubUrl: 'https://github.com/veldurthys1-git/Sales-Forecasting-Using-Machine-Learning',
     featured: false,
   },
   {
@@ -187,8 +204,8 @@ export const projects: Project[] = [
     image:
       'https://images.pexels.com/photos/1181316/pexels-photo-1181316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     technologies: ['AWS', 'GCP', 'Terraform', 'IAM', 'Cloud Networking'],
-    liveUrl: 'https://www.youtube.com/watch?v=g2Il8cxNv18&ab_channel=KahanDataSolutions',
-    githubUrl: 'https://github.com/veldurthys1-git/cloud_vm_deployment',
+    liveUrl: 'https://veldurthys1-git.github.io/Virtual-Machine-Deployment-on-Cloud/',
+    githubUrl: 'https://github.com/veldurthys1-git/Virtual-Machine-Deployment-on-Cloud',
     featured: false,
   },
 ];
@@ -231,7 +248,7 @@ export const testimonials: Testimonial[] = [
     content: 'A dependable team player with a strong DevOps mindset. Saicharan led critical cloud deployments using Terraform and Docker across AWS and GCP, helping us achieve 99.99% uptime and robust CI/CD workflows.',
     author: '— Neeraj Verma',
     role: 'Cloud Solutions Architect',
-    company: 'Guru Nanak University',
+    company: 'Aditi Digital Solutions',
   },
 ];
 
@@ -260,7 +277,7 @@ export const socialLinks: SocialLink[] = [
 
 export const aboutMe = {
   title: 'About Me',
-  description: `Hello, I’m Saicharan Veldurthy, an Experienced Software Engineer with over 4 years of success designing and deploying scalable, cloud-native applications and infrastructure. I specialize in backend development using Python, Java, and modern frameworks like FastAPI, Django, and Flask. My expertise includes building secure REST APIs, managing event-driven data pipelines with Kafka and Airflow, and optimizing performance with tools like Spark and PostgreSQL.
+  description: `Hello, I’m Saicharan Veldurthy, an experienced Data and Cloud engineer with over 4 years of success designing and deploying scalable, cloud-native applications and infrastructure. I specialize in backend development using Python, Java, and modern frameworks like FastAPI, Django, and Flask. My expertise includes building secure REST APIs, managing event-driven data pipelines with Kafka and Airflow, and optimizing performance with tools like Spark and PostgreSQL.
 
 I'm skilled in containerization and orchestration using Docker and Kubernetes (EKS), and I bring a strong DevOps mindset—automating CI/CD workflows with Jenkins and GitHub Actions, and delivering highly available systems on AWS (ECS, Lambda, Fargate, S3).
 
