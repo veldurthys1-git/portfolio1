@@ -58,27 +58,33 @@ export const skills: Skill[] = [
   { name: 'OAuth2.0', level: 75, category: 'project' },
   { name: 'JWT', level: 75, category: 'project' },
 
+  // AI & GenAI Technologies
+  { name: 'OpenAI API', level: 85, category: 'ai' },
+  { name: 'LangChain', level: 80, category: 'ai' },
+  { name: 'FAISS', level: 80, category: 'ai' },
+  { name: 'Vector Databases', level: 80, category: 'ai' },
+  { name: 'Semantic Search', level: 80, category: 'ai' },
+  { name: 'Hugging Face Transformers', level: 75, category: 'ai' },
 ];
 
 
 
 export const professionalExperience: Experience[] = [
   {
-    title: 'Data & Cloud Engineering Intern',
+    title: 'Data & Gen AI Engineer',
     company: 'NexusBlue',
     location: 'Phoenix, AZ',
     startDate: 'Mar 2024',
     endDate: 'Present',
     description: [
-      'Designing and automating ETL workflows with Airflow and Lambda, improving data availability by 40%.',
-      'Developing integration processes for seamless data ingestion and transformation from diverse sources.',
-      'Building and deploying real-time microservices with Docker and ECS, reducing data latency by 25%.',
-      'Delivering API-driven services to enhance platform responsiveness and data access.',
-      'Implementing observability with Prometheus and Grafana, cutting incident response time by 50%.',
-      'Automating infrastructure to support continuous data delivery and scaling.',
-      'Enhancing system resilience and maintainability through optimization and containerization.'
+      'Engineering scalable data pipelines and real-time ETL workflows using Airflow, Lambda, and PostgreSQL to support GenAI applications.',
+      'Developing and deploying containerized microservices with FastAPI and Docker on AWS ECS to enable low-latency, API-driven data services.',
+      'Integrating vector databases and embedding pipelines for semantic search and document retrieval using OpenAI APIs and FAISS.',
+      'Implementing observability with Prometheus, Grafana, and CloudWatch, reducing incident response time by 50%.',
+      'Automating infrastructure for continuous delivery and scalability of AI data systems.',
+      'Enhancing system resilience and performance through containerization and proactive monitoring.'
     ],
-    technologies: ['Apache Airflow', 'AWS Lambda', 'Docker', 'AWS ECS', 'Prometheus', 'Grafana', 'API Development', 'Data Integration', 'Automation', 'Scalability Engineering', 'System Reliability', 'Real-Time Data Access']
+    technologies: ['Apache Airflow', 'AWS Lambda', 'FastAPI', 'Docker', 'AWS ECS', 'PostgreSQL', 'OpenAI API', 'FAISS', 'Prometheus', 'Grafana', 'Vector Databases', 'Kubernetes']
   },
   {
     title: 'Data Engineer',
@@ -277,13 +283,13 @@ export const socialLinks: SocialLink[] = [
 
 export const aboutMe = {
   title: 'About Me',
-  description: `Hello, I’m Saicharan Veldurthy, an experienced Data and Cloud engineer with over 4 years of success designing and deploying scalable, cloud-native applications and infrastructure. I specialize in backend development using Python, Java, and modern frameworks like FastAPI, Django, and Flask. My expertise includes building secure REST APIs, managing event-driven data pipelines with Kafka and Airflow, and optimizing performance with tools like Spark and PostgreSQL.
+  description: `Hi, I’m Saicharan Veldurthy, an AI and Data Engineer with 4+ years of experience building scalable, cloud-native systems. I recently earned my Master’s in Computer Science from the University of Dayton (2024) and specialize in backend development, real-time data pipelines, and modern cloud infrastructure.
 
-I'm skilled in containerization and orchestration using Docker and Kubernetes (EKS), and I bring a strong DevOps mindset—automating CI/CD workflows with Jenkins and GitHub Actions, and delivering highly available systems on AWS (ECS, Lambda, Fargate, S3).
+At NexusBlue, I work as a Data & Gen AI Engineer, designing real-time ETL workflows, deploying microservices, and integrating vector databases and OpenAI APIs to support generative AI use cases. My toolset includes FastAPI, Airflow, Docker, AWS, and FAISS.
 
-Recently completed my Master’s in Computer Science from the University of Dayton (Dec 2024), and hold certifications including AWS Solutions Architect – Associate, Certified Kubernetes Application Developer (CKAD), and Google Professional Data Engineer.
+Previously, I contributed to enterprise projects at Infosys and Innominds, where I developed secure APIs, automated CI/CD pipelines, and led cloud deployments using Kubernetes and AWS. I’m also skilled in monitoring and observability with Prometheus, Grafana, and CloudWatch.
 
-I’m passionate about building efficient, secure systems and continuously improving cloud architectures to drive business value.`,
+I hold certifications including AWS Solutions Architect Associate, CKAD, and Google Professional Data Engineer. I’m passionate about building intelligent, efficient systems and currently seeking full-time roles in AI, cloud, or data engineering.`,
 };
 
 

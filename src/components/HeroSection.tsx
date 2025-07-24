@@ -31,7 +31,7 @@ const HeroSection: React.FC = () => {
                 transition={{ delay: 0.3, duration: 0.5 }}
                 className="inline-block px-3 py-1 text-sm font-medium rounded-full bg-primary-100 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 mb-4"
               >
-                Full Stack Developer & Data Engineer
+                AI Focused Full Stack & Data Engineer
               </motion.span>
               <motion.h1 
                 initial={{ opacity: 0, y: 20 }}
@@ -47,7 +47,7 @@ const HeroSection: React.FC = () => {
                 transition={{ delay: 0.5, duration: 0.5 }}
                 className="text-sm md:text-base text-dark-500 dark:text-gray-300 mb-8 max-w-2xl"
               >
-                I design and deliver high-performance, cloud-native applications by building scalable backend systems, secure APIs, and event-driven architectures. Proficient in Python, Java, and JavaScript, with expertise in frameworks like FastAPI, Django, and Flask. I’ve automated CI/CD pipelines, developed data pipelines using Kafka, Airflow, and Spark, and managed cloud deployments with AWS, Docker, and Kubernetes. With a strong focus on system performance, reliability, and DevOps best practices, I build production-ready solutions that scale efficiently.
+                I design and deliver high-performance, cloud-native applications by building scalable backend systems, secure APIs, and event-driven data architectures. Proficient in Python, Java, and JavaScript, with hands-on expertise in frameworks like FastAPI, Django, and Flask. I build real-time ETL workflows and semantic search pipelines using Airflow, Kafka, Spark, and vector databases, and integrate GenAI solutions with OpenAI APIs and LangChain. I’ve automated CI/CD pipelines, containerized applications with Docker, and managed cloud infrastructure using AWS and Kubernetes. With a strong focus on performance, reliability, and DevOps best practices, I deliver intelligent, production-ready systems that scale seamlessly.
               </motion.p>
             </div>
 
