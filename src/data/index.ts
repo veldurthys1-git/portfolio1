@@ -11,101 +11,111 @@ export const navItems: NavItem[] = [
 ];
 
 export const skills: Skill[] = [
-  // Frontend
-  { name: 'JavaScript', level: 85, category: 'frontend' },
+  // Frontend (from projects + resume)
+  { name: 'JavaScript', level: 80, category: 'frontend' },
   { name: 'React', level: 80, category: 'frontend'},
   { name: 'TailwindCSS', level: 75, category: 'frontend'},
   { name: 'HTML', level: 90, category: 'frontend' },
   { name: 'CSS', level: 85, category: 'frontend' },
 
-  // Backend
+  // Backend & Databases
   { name: 'Python', level: 95, category: 'backend' },
   { name: 'SQL', level: 90, category: 'backend' },
-  { name: 'Java', level: 80, category: 'backend' },
+  { name: 'PostgreSQL', level: 85, category: 'backend' },
+  { name: 'MySQL', level: 80, category: 'backend' },
+  { name: 'SQL Server', level: 70, category: 'backend' },
   { name: 'FastAPI', level: 90, category: 'backend' },
   { name: 'Django', level: 85, category: 'backend' },
   { name: 'Flask', level: 80, category: 'backend' },
   { name: 'RESTful APIs', level: 90, category: 'backend' },
-  { name: 'PostgreSQL', level: 85, category: 'backend' },
-  { name: 'MySQL', level: 80, category: 'backend' },
-  { name: 'Aurora', level: 75, category: 'backend' },
-  { name: 'SQL Server', level: 70, category: 'backend' },
+  { name: 'Java', level: 80, category: 'backend' },
 
   // Cloud Platforms
-  { name: 'AWS', level: 85, category: 'cloud' },
-  { name: 'GCP', level: 80, category: 'cloud' },
+  { name: 'AWS', level: 90, category: 'cloud' },
   { name: 'Azure', level: 80, category: 'cloud' },
-  { name: 'Azure Synapse', level: 80, category: 'cloud' },
+  { name: 'GCP', level: 70, category: 'cloud' },
+  { name: 'AWS Glue', level: 80, category: 'cloud' },
+  { name: 'AWS Redshift', level: 80, category: 'cloud' },
   { name: 'AWS SageMaker', level: 80, category: 'cloud' },
+  { name: 'Azure Synapse', level: 80, category: 'cloud' },
 
   // DevOps & Automation
-  { name: 'Shell Scripting', level: 75, category: 'devops' },
   { name: 'Git', level: 85, category: 'devops' },
   { name: 'GitHub Actions', level: 80, category: 'devops' },
   { name: 'Jenkins', level: 75, category: 'devops' },
-  { name: 'CI/CD', level: 80, category: 'devops' },
-  { name: 'Terraform', level: 70, category: 'devops' },
+  { name: 'CI/CD', level: 85, category: 'devops' },
   { name: 'Docker', level: 85, category: 'devops' },
   { name: 'Kubernetes', level: 80, category: 'devops' },
+  { name: 'Terraform', level: 70, category: 'devops' },
+  { name: 'Shell Scripting', level: 75, category: 'devops' },
 
-  // Engineering Practices (Project + Security + Data Tools)
-  { name: 'Apache Kafka', level: 80, category: 'project' },
-  { name: 'Apache Airflow', level: 85, category: 'project' },
-  { name: 'Apache Spark', level: 75, category: 'project' },
-  { name: 'Agile', level: 90, category: 'project' },
-  { name: 'Scrum', level: 85, category: 'project' },
-  { name: 'TDD', level: 75, category: 'project' },
-  { name: 'OAuth2.0', level: 75, category: 'project' },
-  { name: 'JWT', level: 75, category: 'project' },
+  // Data Engineering & Security
+  { name: 'Apache Airflow', level: 85, category: 'data' },
+  { name: 'Apache Kafka', level: 80, category: 'data' },
+  { name: 'Apache Spark', level: 80, category: 'data' },
+  { name: 'ETL Pipelines', level: 90, category: 'data' },
+  { name: 'Data Modeling', level: 80, category: 'data' },
+  { name: 'Great Expectations', level: 75, category: 'data' },
+  { name: 'OAuth2.0', level: 75, category: 'data' },
+  { name: 'JWT', level: 75, category: 'data' },
 
-  // AI & GenAI Technologies
+  // AI, ML & GenAI
   { name: 'OpenAI API', level: 85, category: 'ai' },
   { name: 'LangChain', level: 80, category: 'ai' },
   { name: 'FAISS', level: 80, category: 'ai' },
   { name: 'Vector Databases', level: 80, category: 'ai' },
   { name: 'Semantic Search', level: 80, category: 'ai' },
+  { name: 'TensorFlow', level: 75, category: 'ai' },
+  { name: 'PyTorch', level: 70, category: 'ai' },
   { name: 'Hugging Face Transformers', level: 75, category: 'ai' },
+
+  // Monitoring, Analytics & BI
+  { name: 'Grafana', level: 85, category: 'BI' },
+  { name: 'Prometheus', level: 80, category: 'BI' },
+  { name: 'Splunk', level: 80, category: 'BI' },
+  { name: 'ELK Stack', level: 80, category: 'BI' },
+  { name: 'Tableau', level: 80, category: 'BI' },
+  { name: 'Power BI', level: 80, category: 'BI' },
 ];
+
 
 
 
 export const professionalExperience: Experience[] = [
   {
-    title: 'Data & Gen AI Engineer',
-    company: 'NexusBlue',
-    location: 'Phoenix, AZ',
-    startDate: 'Mar 2024',
-    endDate: 'Present',
-    description: [
-      'Engineering scalable data pipelines and real-time ETL workflows using Airflow, Lambda, and PostgreSQL to support GenAI applications.',
-      'Developing and deploying containerized microservices with FastAPI and Docker on AWS ECS to enable low-latency, API-driven data services.',
-      'Integrating vector databases and embedding pipelines for semantic search and document retrieval using OpenAI APIs and FAISS.',
-      'Implementing observability with Prometheus, Grafana, and CloudWatch, reducing incident response time by 50%.',
-      'Automating infrastructure for continuous delivery and scalability of AI data systems.',
-      'Enhancing system resilience and performance through containerization and proactive monitoring.'
-    ],
-    technologies: ['Apache Airflow', 'AWS Lambda', 'FastAPI', 'Docker', 'AWS ECS', 'PostgreSQL', 'OpenAI API', 'FAISS', 'Prometheus', 'Grafana', 'Vector Databases', 'Kubernetes']
-  },
-  {
     title: 'Data Engineer',
-    company: 'Infosys Pvt. Ltd',
+    company: 'Infosys Ltd.',
     location: 'Hyderabad, India',
     startDate: 'June 2021',
     endDate: 'Dec 2022',
     description: [
-      'Developed RESTful microservices with FastAPI and Django, reducing feature rollout time by 30%.',
-      'Managed containerized apps using Docker and Kubernetes (EKS), ensuring 99.9% uptime.',
-      'Built event-driven data pipelines with Kafka and Airflow, cutting data latency by 60%.',
-      'Implemented OAuth2 and JWT in APIs to improve security and standards compliance.',
-      'Automated CI/CD with Jenkins and GitHub Actions, reducing deployment errors by 40%.',
-      'Migrated apps to AWS (ECS, S3, Fargate), cutting infrastructure costs by 25%.',
-      'Collaborated across teams to drive DevOps adoption and improve release reliability.'
+      'Developed and optimized RESTful microservices using FastAPI and Django with OAuth2/JWT authentication, reducing latency by 60% and cutting AWS infrastructure costs by 25%.',
+      'Built and automated scalable data pipelines with Apache Airflow and Kafka, reducing model training time by 35% and enabling 500K+ daily ML inferences with sub-100ms latency.',
+      'Implemented CI/CD pipelines with Jenkins and GitHub Actions, cutting deployment failures by 40% and doubling release velocity.',
+      'Conducted load testing with Locust and JMeter for 100K+ concurrent users, improving system resilience by 45%.',
+      'Engineered real-time anomaly detection with Python and TensorFlow, improving fraud detection accuracy by 18% across 10M+ transactions.',
+      'Integrated ELK Stack and Splunk for centralized monitoring, reducing issue resolution time by 50%.',
+      'Collaborated with cross-functional teams to deliver production-ready, scalable, and reliable data solutions.'
     ],
-    technologies: ['Python', 'FastAPI', 'Django', 'Kafka', 'Airflow', 'Docker', 'Kubernetes', 'AWS ECS', 'OAuth2', 'JWT', 'Jenkins', 'GitHub Actions']
+    technologies: [
+      'Python',
+      'FastAPI',
+      'Django',
+      'Apache Kafka',
+      'Apache Airflow',
+      'Docker',
+      'Kubernetes',
+      'AWS',
+      'Jenkins',
+      'GitHub Actions',
+      'Locust',
+      'JMeter',
+      'TensorFlow',
+      'ELK',
+      'Splunk'
+    ]
   }
 ];
-
-
 
 export const additionalExperience: Experience[] = [
   {
@@ -115,30 +125,54 @@ export const additionalExperience: Experience[] = [
     startDate: 'May 2020',
     endDate: 'June 2021',
     description: [
-      'Built backend systems in Python and Java, handling 1M+ daily API calls with <200ms latency.',
-      'Developed ETL pipelines using Spark and PostgreSQL to process 50TB+ of data weekly.',
-      'Integrated monitoring with Prometheus and Grafana, reducing incident response time by 50%.',
-      'Containerized legacy apps and deployed via AWS ECS with Auto Scaling for better resilience.',
-      'Collaborated on APIs using Flask, React, and HTML/CSS, improving performance and UX.',
-      'Automated builds and provisioning with shell scripts and CI hooks to streamline workflows.',
-      'Led migration to microservices with FastAPI and Docker, reducing downtime by 35%.'
+      'Developed backend systems in Python and Java, handling 1M+ daily API requests with <200ms latency, and migrated monoliths to Docker-based microservices, reducing downtime by 35%.',
+      'Built ETL pipelines with Apache Spark and PostgreSQL to process 50TB+ weekly data and designed AWS S3/Glue data lakes consolidating 100TB+, improving query speed by 70%.',
+      'Optimized ML workflows with AWS Redshift feature stores, reducing retraining time by 40%, and deployed NLP models processing 2M+ documents/day with 92% accuracy.',
+      'Automated data quality checks with PySpark and Great Expectations, reducing errors by 55%.',
+      'Implemented monitoring with Prometheus and Grafana, cutting incident response by 50%.',
+      'Containerized legacy apps with AWS ECS and Auto Scaling, boosting scalability 3x.',
+      'Worked with cross-functional teams to deliver reliable, production-ready systems.'
     ],
-    technologies: ['Python', 'Java', 'Apache Spark', 'PostgreSQL', 'Prometheus', 'Grafana', 'Flask', 'React', 'FastAPI', 'Docker', 'AWS ECS', 'CI/CD']
+    technologies: [
+      'Python',
+      'Java',
+      'Apache Spark',
+      'PostgreSQL',
+      'AWS S3',
+      'AWS Glue',
+      'AWS Redshift',
+      'PySpark',
+      'Great Expectations',
+      'Prometheus',
+      'Grafana',
+      'AWS ECS',
+      'Docker'
+    ]
   },
   {
-    title: 'Cloud & Automation - Intern',
-    company: 'Aditi Digital Solutions',
+    title: 'Data Analyst',
+    company: 'Arka F&B Pvt. Ltd.',
     location: 'Hyderabad, India',
-    startDate: 'Sep 2019',
+    startDate: 'Aug 2019',
     endDate: 'May 2020',
     description: [
-      'Optimized AWS deployments to improve cloud resource utilization by 15%.',
-      'Automated maintenance tasks using Python and AWS Lambda, reducing manual effort by 40%.',
-      'Built CloudWatch dashboards to enhance monitoring, cutting incident detection time by 30%.'
+      'Integrated POS data with sales forecasts to optimize inventory and demand planning, reducing stockouts by 25% and food waste by 18%.',
+      'Designed real-time dashboards in Tableau and Power BI for 15+ outlets, standardizing reporting and improving data consistency by 30%.',
+      'Conducted time-motion studies to identify bottlenecks, improving service speed by 12%.',
+      'Automated daily reporting with Python and Excel, saving 4+ hours per week.',
+      'Led vendor evaluation framework for 20+ suppliers, improving supply chain reliability and cost-efficiency.',
+      'Collaborated across operations and procurement teams, improving forecasting accuracy by 20%.'
     ],
-    technologies: ['AWS', 'Python', 'Lambda', 'CloudWatch']
+    technologies: [
+      'Python',
+      'Excel',
+      'Tableau',
+      'Power BI',
+      'SQL'
+    ]
   }
 ];
+
 
 
 export const projects: Project[] = [
@@ -242,19 +276,19 @@ export const testimonials: Testimonial[] = [
     content: "An exceptional backend engineer who consistently delivers high-performance, scalable systems. Saicharan’s expertise in Python, FastAPI, and cloud-native technologies made a measurable impact—reducing system latency by 35% and deployment errors by 90%.",
     author: '— Ravi Kulkarni',
     role: 'Senior Engineering Manager',
-    company: 'Infosys',
+    company: 'Infosys Ltd.',
   },
   {
     content: 'Saicharan demonstrates a rare combination of deep technical skills and business insight. His work on data pipelines and real-time processing with Kafka and Spark greatly enhanced our data delivery and decision-making capabilities.',
     author: '— Priya Menon',
     role: 'Lead Data Engineer',
-    company: 'Innominds',
+    company: 'Innominds Software Pvt. Ltd.',
   },
   {
-    content: 'A dependable team player with a strong DevOps mindset. Saicharan led critical cloud deployments using Terraform and Docker across AWS and GCP, helping us achieve 99.99% uptime and robust CI/CD workflows.',
+    content: 'A team player in every sense, Sai Charan built dashboards and improved forecasting that reduced stockouts and waste while enabling faster, data-driven decisions. His ability to turn complex data into clear insights made a lasting impact on operational efficiency.',
     author: '— Neeraj Verma',
     role: 'Cloud Solutions Architect',
-    company: 'Aditi Digital Solutions',
+    company: 'Arka F&B Pvt Ltd',
   },
 ];
 
@@ -283,9 +317,9 @@ export const socialLinks: SocialLink[] = [
 
 export const aboutMe = {
   title: 'About Me',
-  description: `Hi, I’m Saicharan Veldurthy, an AI and Data Engineer with 4+ years of experience building scalable, cloud-native systems. I recently earned my Master’s in Computer Science from the University of Dayton (2024) and specialize in backend development, real-time data pipelines, and modern cloud infrastructure.
+  description: `Hi, I’m Saicharan Veldurthy, an Data and Software Engineer with 4+ years of experience building scalable, cloud-native systems. I recently earned my Master’s in Computer Science from the University of Dayton (2024) and specialize in backend development, real-time data pipelines, and modern cloud infrastructure.
 
-At NexusBlue, I work as a Data & Gen AI Engineer, designing real-time ETL workflows, deploying microservices, and integrating vector databases and OpenAI APIs to support generative AI use cases. My toolset includes FastAPI, Airflow, Docker, AWS, and FAISS.
+I work with tools like Python, Spark, Airflow, and Kafka to create real-time workflows and data architectures. On the backend side, I design secure APIs and applications using FastAPI, Django, and Flask. I also explore new technologies like vector databases and GenAI solutions with OpenAI APIs and LangChain to solve modern data problems.
 
 Previously, I contributed to enterprise projects at Infosys and Innominds, where I developed secure APIs, automated CI/CD pipelines, and led cloud deployments using Kubernetes and AWS. I’m also skilled in monitoring and observability with Prometheus, Grafana, and CloudWatch.
 

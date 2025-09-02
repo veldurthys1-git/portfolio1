@@ -31,7 +31,7 @@ const HeroSection: React.FC = () => {
                 transition={{ delay: 0.3, duration: 0.5 }}
                 className="inline-block px-3 py-1 text-sm font-medium rounded-full bg-primary-100 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 mb-4"
               >
-                AI Focused Full Stack & Data Engineer
+                Data & Analytics Engineer | Real-Time Pipelines & BI
               </motion.span>
               <motion.h1 
                 initial={{ opacity: 0, y: 20 }}
@@ -47,7 +47,7 @@ const HeroSection: React.FC = () => {
                 transition={{ delay: 0.5, duration: 0.5 }}
                 className="text-sm md:text-base text-dark-500 dark:text-gray-300 mb-8 max-w-2xl"
               >
-                I design and deliver high-performance, cloud-native applications by building scalable backend systems, secure APIs, and event-driven data architectures. Proficient in Python, Java, and JavaScript, with hands-on expertise in frameworks like FastAPI, Django, and Flask. I build real-time ETL workflows and semantic search pipelines using Airflow, Kafka, Spark, and vector databases, and integrate GenAI solutions with OpenAI APIs and LangChain. I’ve automated CI/CD pipelines, containerized applications with Docker, and managed cloud infrastructure using AWS and Kubernetes. With a strong focus on performance, reliability, and DevOps best practices, I deliver intelligent, production-ready systems that scale seamlessly.
+                I design and deliver high-performance, cloud-native applications and scalable data systems. I build real-time ETL workflows and event-driven architectures using Apache Spark, Airflow, and Kafka, and develop secure APIs and backend services with FastAPI, Django, and Flask. I integrate machine learning and GenAI solutions, including semantic search pipelines with vector databases and OpenAI APIs. I automate CI/CD pipelines with Jenkins and GitHub Actions, containerize applications using Docker, and manage cloud infrastructure on AWS and Azure with Kubernetes. With a strong focus on performance, reliability, and cost optimization, I deliver intelligent, production-ready systems that improve fraud detection, accelerate decision-making, and reduce infrastructure costs.
               </motion.p>
             </div>
 

@@ -10,7 +10,8 @@ export const categories = [
   { id: 'cloud', label: 'Cloud Platforms' },
   { id: 'devops', label: 'DevOps & Automation' },
   { id: 'project', label: 'Engineering Practices' },
-  { id: 'ai', label: 'AI & GenAI' }
+  { id: 'ai', label: 'AI & GenAI' },
+  { id: 'BI', label: 'Monitoring, Analytics & BI ' }
 ];
 
 
