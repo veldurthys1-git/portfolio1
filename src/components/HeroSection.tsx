@@ -31,7 +31,7 @@ const HeroSection: React.FC = () => {
                 transition={{ delay: 0.3, duration: 0.5 }}
                 className="inline-block px-3 py-1 text-sm font-medium rounded-full bg-primary-100 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 mb-4"
               >
-                Data & Analytics Engineer | Real-Time Pipelines & BI
+                Senior Python Backend & Cloud Engineer
               </motion.span>
               <motion.h1 
                 initial={{ opacity: 0, y: 20 }}
@@ -47,7 +47,7 @@ const HeroSection: React.FC = () => {
                 transition={{ delay: 0.5, duration: 0.5 }}
                 className="text-sm md:text-base text-dark-500 dark:text-gray-300 mb-8 max-w-2xl"
               >
-                I design and deliver high-performance, cloud-native applications and scalable data systems. I build real-time ETL workflows and event-driven architectures using Apache Spark, Airflow, and Kafka, and develop secure APIs and backend services with FastAPI, Django, and Flask. I integrate machine learning and GenAI solutions, including semantic search pipelines with vector databases and OpenAI APIs. I automate CI/CD pipelines with Jenkins and GitHub Actions, containerize applications using Docker, and manage cloud infrastructure on AWS and Azure with Kubernetes. With a strong focus on performance, reliability, and cost optimization, I deliver intelligent, production-ready systems that improve fraud detection, accelerate decision-making, and reduce infrastructure costs.
+                I design and deliver high-performance, cloud-native applications and data-driven backend systems. My work focuses on building secure APIs, real-time data pipelines, and event-driven architectures using Python, FastAPI, Flask, and GCP services like Pub/Sub, BigQuery, and Cloud Run. I automate CI/CD workflows with GitLab CI/CD and Cloud Build, containerize applications with Docker and Kubernetes, and manage cloud infrastructure across AWS and GCP using Terraform. I also integrate observability and security tools such as Prometheus, Grafana, SonarQube, and Snyk to ensure reliability, compliance, and performance at scale. With a strong focus on scalability, cost efficiency, and resilience, I deliver production-ready systems that power analytics, improve automation, and support enterprise decision-making.
               </motion.p>
             </div>
 

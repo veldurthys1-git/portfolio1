@@ -6,12 +6,12 @@ import { Skill } from '../types';
 
 export const categories = [
   { id: 'frontend', label: 'Frontend' },
-  { id: 'backend', label: 'Backend' },
-  { id: 'cloud', label: 'Cloud Platforms' },
-  { id: 'devops', label: 'DevOps & Automation' },
-  { id: 'project', label: 'Engineering Practices' },
+  { id: 'backend', label: 'Backend & API Development' },
+  { id: 'cloud', label: 'Cloud Platforms (AWS / GCP)' },
+  { id: 'devops', label: 'DevOps, Security & Automation' },
+  { id: 'data', label: 'Data Engineering & Pipelines' },
   { id: 'ai', label: 'AI & GenAI' },
-  { id: 'BI', label: 'Monitoring, Analytics & BI ' }
+  { id: 'BI', label: 'Monitoring, Analytics & Observability' }
 ];
 
 
