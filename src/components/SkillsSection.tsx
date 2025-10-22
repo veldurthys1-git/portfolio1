@@ -5,18 +5,17 @@ import { skills } from '../data';
 import { Skill } from '../types';
 
 export const categories = [
-  { id: 'frontend', label: 'Frontend' },
-  { id: 'backend', label: 'Backend & API Development' },
-  { id: 'cloud', label: 'Cloud Platforms (AWS / GCP)' },
-  { id: 'devops', label: 'DevOps, Security & Automation' },
-  { id: 'data', label: 'Data Engineering & Pipelines' },
-  { id: 'ai', label: 'AI & GenAI' },
-  { id: 'BI', label: 'Monitoring, Analytics & Observability' }
+  { id: 'data', label: 'Data Engineering & Lakehouse' },
+  { id: 'databases', label: 'Databases & Warehousing' },
+  { id: 'cloud', label: 'Cloud Platforms (AWS / Azure / GCP)' },
+  { id: 'devops', label: 'DevOps & Automation' },
+  { id: 'governance', label: 'Data Quality, Governance & Security' },
+  { id: 'observability', label: 'Monitoring & Observability' }
 ];
 
 
 const SkillsSection: React.FC = () => {
-  const [activeCategory, setActiveCategory] = useState('frontend');
+  const [activeCategory, setActiveCategory] = useState('data');
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,

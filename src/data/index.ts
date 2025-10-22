@@ -10,99 +10,75 @@ export const navItems: NavItem[] = [
   { label: 'Contact', href: '#contact' },
 ];
 
+
 export const skills: Skill[] = [
-  // Frontend (from projects)
-  { name: 'JavaScript', level: 80, category: 'frontend' },
-  { name: 'React', level: 80, category: 'frontend' },
-  { name: 'TailwindCSS', level: 75, category: 'frontend' },
-  { name: 'HTML', level: 90, category: 'frontend' },
-  { name: 'CSS', level: 85, category: 'frontend' },
+  // Data Engineering & Lakehouse
+  { name: 'Python', level: 95, category: 'data' },
+  { name: 'SQL', level: 95, category: 'data' },
+  { name: 'Apache Spark / PySpark', level: 90, category: 'data' },
+  { name: 'Apache Airflow', level: 90, category: 'data' },
+  { name: 'Delta Lake / Lakehouse', level: 85, category: 'data' },
+  { name: 'Kafka (Streaming)', level: 80, category: 'data' },
+  { name: 'dbt', level: 75, category: 'data' },
+  { name: 'ETL / ELT Design', level: 90, category: 'data' },
+  { name: 'Data Modeling (Star & Snowflake)', level: 85, category: 'data' },
+  { name: 'Partitioning & Performance Tuning', level: 85, category: 'data' },
 
-  // Backend & APIs
-  { name: 'Python', level: 95, category: 'backend' },
-  { name: 'FastAPI', level: 90, category: 'backend' },
-  { name: 'Flask', level: 85, category: 'backend' },
-  { name: 'Django', level: 75, category: 'backend' },
-  { name: 'RESTful APIs', level: 90, category: 'backend' },
-  { name: 'gRPC', level: 80, category: 'backend' },
-  { name: 'Pydantic', level: 85, category: 'backend' },
-  { name: 'Marshmallow', level: 80, category: 'backend' },
-  { name: 'OAuth2.0', level: 80, category: 'backend' },
-  { name: 'JWT', level: 80, category: 'backend' },
-  { name: 'Kong API Gateway', level: 75, category: 'backend' },
-  { name: 'SQLAlchemy', level: 80, category: 'backend' },
+  // Databases & Warehousing
+  { name: 'Snowflake', level: 90, category: 'databases' },
+  { name: 'AWS Redshift', level: 80, category: 'databases' },
+  { name: 'BigQuery', level: 75, category: 'databases' },
+  { name: 'PostgreSQL', level: 85, category: 'databases' },
+  { name: 'MySQL', level: 80, category: 'databases' },
+  { name: 'SQL Server', level: 75, category: 'databases' },
+  { name: 'MongoDB', level: 65, category: 'databases' },
 
-  // Databases
-  { name: 'SQL', level: 90, category: 'backend' },
-  { name: 'PostgreSQL', level: 85, category: 'backend' },
-  { name: 'MySQL', level: 80, category: 'backend' },
-  { name: 'Oracle', level: 75, category: 'backend' },
-  { name: 'Cassandra', level: 65, category: 'backend' },
-
-  // Cloud Platforms (Wells Fargo/CareSource emphasis on GCP + AWS)
-  { name: 'GCP', level: 90, category: 'cloud' },
+  // Cloud Platforms & Services
   { name: 'AWS', level: 85, category: 'cloud' },
-  { name: 'Azure', level: 60, category: 'cloud' },
+  { name: 'Azure', level: 85, category: 'cloud' },
+  { name: 'GCP', level: 70, category: 'cloud' },
 
-  // GCP Services
-  { name: 'GKE', level: 85, category: 'cloud' },
-  { name: 'Cloud Run', level: 85, category: 'cloud' },
-  { name: 'Pub/Sub', level: 85, category: 'cloud' },
-  { name: 'BigQuery', level: 85, category: 'cloud' },
-  { name: 'Cloud Build', level: 80, category: 'cloud' },
-  { name: 'Secret Manager', level: 80, category: 'cloud' },
-  { name: 'Cloud Tasks', level: 75, category: 'cloud' },
-  { name: 'Cloud Logging & Monitoring', level: 80, category: 'cloud' },
-
-  // AWS Services
-  { name: 'AWS Lambda', level: 80, category: 'cloud' },
-  { name: 'API Gateway', level: 80, category: 'cloud' },
+  // AWS (detail)
   { name: 'S3', level: 85, category: 'cloud' },
-  { name: 'RDS', level: 75, category: 'cloud' },
+  { name: 'Glue (Catalog/ETL)', level: 80, category: 'cloud' },
+  { name: 'EMR', level: 80, category: 'cloud' },
+  { name: 'Redshift (DW)', level: 80, category: 'cloud' },
 
-  // DevOps, Security & Automation
-  { name: 'Git', level: 85, category: 'devops' },
-  { name: 'CI/CD', level: 90, category: 'devops' },
-  { name: 'GitLab CI/CD', level: 85, category: 'devops' },
+  // Azure (detail)
+  { name: 'Azure Data Factory', level: 90, category: 'cloud' },
+  { name: 'Azure Synapse Analytics', level: 85, category: 'cloud' },
+  { name: 'Azure Databricks', level: 85, category: 'cloud' },
+  { name: 'Azure Key Vault / IAM', level: 80, category: 'cloud' },
+
+  // GCP (from skills list)
+  { name: 'Dataflow', level: 65, category: 'cloud' },
+
+  // DevOps & Automation
+  { name: 'Git', level: 90, category: 'devops' },
+  { name: 'CI/CD (Pipelines)', level: 90, category: 'devops' },
+  { name: 'Jenkins', level: 80, category: 'devops' },
   { name: 'GitHub Actions', level: 75, category: 'devops' },
-  { name: 'Jenkins', level: 70, category: 'devops' },
-  { name: 'Docker', level: 85, category: 'devops' },
-  { name: 'Kubernetes', level: 85, category: 'devops' },
   { name: 'Terraform', level: 80, category: 'devops' },
-  { name: 'HashiCorp Vault', level: 75, category: 'devops' },
+  { name: 'Docker', level: 85, category: 'devops' },
+  { name: 'Kubernetes', level: 75, category: 'devops' },
   { name: 'Shell Scripting', level: 75, category: 'devops' },
-  { name: 'SonarQube', level: 80, category: 'devops' },
-  { name: 'Prisma Cloud', level: 75, category: 'devops' },
-  { name: 'Snyk', level: 75, category: 'devops' },
-  { name: 'Trivy', level: 75, category: 'devops' },
-  { name: 'OWASP Secure Coding', level: 80, category: 'devops' },
 
-  // Data Engineering & Streaming
-  { name: 'ETL Pipelines', level: 85, category: 'data' },
-  { name: 'Pandas', level: 85, category: 'data' },
-  { name: 'Apache Kafka', level: 80, category: 'data' },
-  { name: 'RabbitMQ', level: 70, category: 'data' },
-  { name: 'PySpark', level: 70, category: 'data' },
-  { name: 'Data Modeling', level: 80, category: 'data' },
-  { name: 'Analytics Hub', level: 70, category: 'data' },
+  // Quality, Governance & Security
+  { name: 'Great Expectations (DQ)', level: 80, category: 'governance' },
+  { name: 'Data Lineage & Catalog (Glue Catalog)', level: 80, category: 'governance' },
+  { name: 'Metadata Management', level: 80, category: 'governance' },
+  { name: 'Data Security & Compliance (SOC 2, GDPR)', level: 75, category: 'governance' },
 
-  // Testing & Quality
-  { name: 'PyTest', level: 85, category: 'data' },
-  { name: 'Behave (BDD)', level: 75, category: 'data' },
-  { name: 'TDD/BDD', level: 80, category: 'data' },
+  // Observability & Monitoring
+  { name: 'Prometheus', level: 80, category: 'observability' },
+  { name: 'Grafana', level: 80, category: 'observability' },
+  { name: 'Logging & Monitoring', level: 85, category: 'observability' },
 
-  // Observability & On-call
-  { name: 'Prometheus', level: 85, category: 'BI' },
-  { name: 'Grafana', level: 85, category: 'BI' },
-  { name: 'PagerDuty', level: 70, category: 'BI' },
-
-  // (Optional) GenAI—kept modest since not core in featured roles
-  { name: 'OpenAI API', level: 60, category: 'ai' },
-  { name: 'LangChain', level: 55, category: 'ai' },
-  { name: 'FAISS', level: 55, category: 'ai' },
-  { name: 'Vector Databases', level: 55, category: 'ai' },
-  { name: 'Hugging Face Transformers', level: 55, category: 'ai' }
+  // Ways of Working
+  { name: 'Agile / Scrum', level: 85, category: 'devops' },
+  { name: 'Cross-Functional Collaboration', level: 85, category: 'devops' }
 ];
+
 
 
 
@@ -110,139 +86,128 @@ export const skills: Skill[] = [
 
 export const professionalExperience: Experience[] = [
   {
-    title: 'Backend Engineer – Python & Cloud Infrastructure',
+    title: 'Lead Data Engineer',
     company: 'Wells Fargo',
     location: 'Arizona, USA',
     startDate: 'June 2024',
     endDate: 'Present',
     description: [
-      'Architected and deployed microservices using FastAPI and Flask on GCP (GKE, Cloud Run), ensuring high-performance, low-latency APIs for enterprise systems.',
-      'Developed RESTful and gRPC APIs integrated with OAuth2, JWT, and Google Identity, securing cross-platform authentication flows.',
-      'Implemented event-driven microservices using Pub/Sub and Cloud Tasks, improving asynchronous data processing and scalability by 40%.',
-      'Enhanced ETL pipelines using Python multiprocessing and Pandas, reducing data transformation time by 60%.',
-      'Built and automated CI/CD pipelines with GitLab CI/CD and Cloud Build, embedding linting, testing, and security scans with SonarQube and Trivy.',
-      'Integrated Prometheus and Grafana dashboards for observability, cutting downtime and alert response time by 45%.',
-      'Mentored junior developers and collaborated with cross-functional teams to design secure, production-grade APIs adhering to OWASP standards.'
+      'Architected and managed enterprise-scale data pipelines using Apache Spark, Airflow, and Snowflake to power 200+ business-critical reports and analytics workloads.',
+      'Led the migration of legacy Hadoop workloads to Azure Data Factory and Synapse Analytics, reducing data latency by 50% and modernizing infrastructure.',
+      'Directed and mentored a team of 4 data engineers, standardizing coding practices and implementing robust data quality frameworks that achieved 99.8% reliability.',
+      'Optimized ETL orchestration within Azure Data Factory through parallelization and efficient resource allocation, reducing job execution time by 45%.',
+      'Implemented real-time monitoring using Prometheus and Grafana, improving issue detection and resolution speed across data pipelines.',
+      'Designed secure data access policies using Azure IAM and Key Vault, ensuring SOC2 compliance and complete audit traceability.',
+      'Collaborated with cross-functional analytics teams to deliver automated, scalable, and compliant data solutions supporting enterprise decision-making.'
     ],
     technologies: [
       'Python',
-      'FastAPI',
-      'Flask',
-      'gRPC',
-      'OAuth2',
-      'JWT',
-      'GCP (GKE, Cloud Run, Pub/Sub, BigQuery, Cloud Tasks)',
-      'AWS Lambda',
-      'Terraform',
-      'GitLab CI/CD',
+      'Apache Spark',
+      'Apache Airflow',
+      'Snowflake',
+      'Azure Data Factory',
+      'Azure Synapse',
+      'Databricks',
       'Prometheus',
       'Grafana',
-      'SonarQube',
-      'Pandas',
-      'SQLAlchemy'
+      'Azure Key Vault',
+      'Terraform',
+      'Git',
+      'SQL'
     ]
   },
   {
-    title: 'Python Backend & Data Engineer – APIs, Big Data & ETL Pipelines',
+    title: 'Senior Data Engineer',
     company: 'CareSource',
-    location: 'Texas, USA',
+    location: 'Dayton, Ohio, USA',
     startDate: 'June 2023',
     endDate: 'May 2024',
     description: [
-      'Designed and deployed scalable microservices with FastAPI and Flask on GKE and Cloud Run, enabling secure API-driven data workflows.',
-      'Developed event-driven data pipelines integrating Pub/Sub, Cloud Storage, and BigQuery for real-time analytics and compliance monitoring.',
-      'Implemented API payload validation with Pydantic and Marshmallow, ensuring strict schema compliance across systems.',
-      'Automated infrastructure provisioning using Terraform with reusable modules for IAM, GKE clusters, and Secret Manager.',
-      'Embedded security-as-code in CI/CD pipelines using Cloud Build and integrated Prisma Cloud, Snyk, and Trivy for vulnerability detection.',
-      'Improved observability with Stackdriver Logging and Monitoring, reducing issue triage time by 50%.',
-      'Collaborated in Agile teams to deliver production-ready APIs, enhancing compliance automation and data governance capabilities.'
+      'Designed and implemented a modern Data Lakehouse using Delta Lake on Databricks, managing over 10TB of data for enterprise analytics and reporting.',
+      'Built and maintained real-time streaming pipelines using Kafka and Spark Structured Streaming to enable low-latency analytics across multiple systems.',
+      'Migrated ETL workflows from Informatica to PySpark, reducing compute costs by 40% and improving maintainability.',
+      'Developed and orchestrated complex data workflows with Apache Airflow DAGs, improving SLA adherence from 85% to 98%.',
+      'Implemented automated unit testing and CI/CD pipelines for ETL processes, reducing production downtime by 35% and improving release frequency.',
+      'Collaborated with governance teams to establish data lineage and cataloging using AWS Glue, ensuring metadata consistency and audit compliance.',
+      'Partnered with analytics and BI teams to deliver trusted datasets that accelerated business insights by 30%.'
     ],
     technologies: [
       'Python',
-      'FastAPI',
-      'Flask',
-      'Pydantic',
+      'PySpark',
+      'Apache Airflow',
+      'Kafka',
+      'Databricks',
+      'AWS Glue',
+      'Delta Lake',
+      'AWS S3',
       'Terraform',
-      'GCP (GKE, Cloud Run, Pub/Sub, BigQuery, Cloud Storage, Secret Manager)',
-      'Kubernetes',
-      'HashiCorp Vault',
-      'SonarQube',
-      'Prisma Cloud',
-      'Snyk',
-      'Trivy',
-      'Cloud Build',
-      'Agile-Scrum'
+      'CI/CD',
+      'SQL',
+      'Git'
     ]
   }
 ];
 
 export const additionalExperience: Experience[] = [
   {
-    title: 'Python Developer – Full Stack Development',
+    title: 'Data Engineer',
     company: 'Infosys Ltd.',
     location: 'Hyderabad, India',
     startDate: 'June 2021',
     endDate: 'Dec 2022',
     description: [
-      'Developed and maintained backend services using Flask and Django REST Framework, modernizing legacy Java systems into scalable microservices.',
-      'Integrated ReactJS frontends with RESTful APIs, improving response times and front-end user experience across enterprise portals.',
-      'Implemented secure authentication with OAuth2 and JWT, enforcing multi-tenant access for corporate systems.',
-      'Built ETL workflows in Python and SQL to process and analyze large-scale real estate datasets.',
-      'Containerized applications using Docker and deployed to AWS EC2/S3, improving scalability and deployment consistency.',
-      'Automated CI/CD pipelines using Jenkins and GitLab CI/CD, achieving zero-downtime releases.',
-      'Collaborated in Agile teams, conducting code reviews and debugging production issues to maintain SLA performance.'
+      'Developed Spark-based ETL pipelines on AWS EMR processing 1TB+ of data daily, integrating Kafka for near real-time data ingestion.',
+      'Designed and implemented data warehouse schemas using Star and Snowflake models in Snowflake and Redshift, improving query performance by 45%.',
+      'Automated infrastructure and deployment workflows using Terraform and GitHub Actions, standardizing CI/CD processes and cutting release time by 60%.',
+      'Established data validation frameworks with Great Expectations, ensuring 99% data consistency across analytics systems.',
+      'Optimized query performance through SQL partitioning, clustering, and compression strategies, reducing compute costs by 25%.',
+      'Collaborated with data scientists and BI teams to deliver analytics datasets for key business initiatives and improved insight delivery.',
+      'Mentored junior engineers in PySpark optimization, SQL tuning, and pipeline best practices, fostering team efficiency and skill growth.'
     ],
     technologies: [
       'Python',
-      'Flask',
-      'Django REST Framework',
-      'ReactJS',
-      'Redux',
-      'JavaScript (ES6+)',
-      'PostgreSQL',
-      'MySQL',
-      'AWS EC2/S3',
-      'Docker',
-      'OAuth2',
-      'JWT',
-      'Jenkins',
-      'GitLab CI/CD',
-      'Agile-Scrum'
+      'PySpark',
+      'AWS EMR',
+      'Apache Kafka',
+      'Snowflake',
+      'Redshift',
+      'Terraform',
+      'Great Expectations',
+      'GitHub Actions',
+      'SQL',
+      'AWS S3'
     ]
   },
   {
-    title: 'Associate Python Developer – Python & Big Data Engineering',
-    company: 'Innominds',
+    title: 'Associate Data Engineer',
+    company: 'Innominds Software Pvt. Ltd.',
     location: 'Bangalore, India',
     startDate: 'Aug 2020',
     endDate: 'May 2021',
     description: [
-      'Developed and deployed Python-based backend APIs using Flask to support large-scale data ingestion and analytics workflows.',
-      'Built PySpark-based ETL pipelines processing 10TB+ data weekly for analytics and batch processing.',
-      'Integrated Apache Kafka and Hadoop (HDFS, Hive) for streaming and distributed processing, improving system throughput by 30%.',
-      'Automated nightly syncs and backup jobs using Python and Shell scripts, reducing manual tasks by 80%.',
-      'Implemented PyTest test suites to enable CI-friendly validation of ETL workflows and APIs.',
-      'Optimized SQL queries and schemas in PostgreSQL/MySQL to improve query performance for large datasets.',
-      'Collaborated with cross-functional teams in Agile sprints, delivering production-ready solutions and improving team productivity.'
+      'Developed ETL workflows using Python and SQL to process large datasets from REST APIs, JSON, and CSV sources for analytics systems.',
+      'Built PySpark-based data processing jobs on AWS S3 and Redshift, reducing overall processing time by 30%.',
+      'Implemented data validation and transformation automation with reusable Python modules and SQL checks, improving accuracy by 25%.',
+      'Managed Airflow DAGs for job orchestration and monitoring, reducing manual intervention by 40%.',
+      'Optimized SQL queries and database schemas to enhance analytics query performance by up to 50%.',
+      'Supported the migration of on-prem databases to AWS Cloud with zero downtime, improving scalability and cost efficiency.',
+      'Collaborated with BI teams to deliver high-performance reporting datasets and ensure consistent data availability.'
     ],
     technologies: [
       'Python',
-      'Flask',
       'PySpark',
-      'Apache Kafka',
-      'Hadoop (HDFS, Hive)',
-      'PostgreSQL',
-      'MySQL',
+      'Apache Airflow',
       'AWS S3',
-      'Azure Blob Storage',
-      'Shell Scripting',
-      'PyTest',
+      'AWS Redshift',
+      'SQL',
+      'Pandas',
+      'ETL',
       'Docker',
-      'CI/CD',
-      'Agile-Scrum'
+      'Shell Scripting'
     ]
   }
 ];
+
 
 
 
@@ -393,13 +358,13 @@ export const socialLinks: SocialLink[] = [
 
 export const aboutMe = {
   title: 'About Me',
-  description: `Hi, I’m Saicharan Veldurthy, a Python Full Stack and Cloud Engineer with over five years of experience building scalable backend systems and data platforms. I love designing secure, high-performance APIs and event-driven architectures that power real-time analytics and smooth integrations across cloud environments.
+  description: `Hi, I’m Saicharan Veldurthy, a data engineer passionate about building scalable and reliable data systems that power real-world decisions. I enjoy turning complex, unstructured data into meaningful insights through efficient architecture and automation.
 
-At Wells Fargo, I build and maintain cloud-native microservices and serverless APIs using Python, FastAPI, and Flask on Google Cloud Platform and AWS. My work focuses on improving performance, automation, and observability while modernizing legacy systems into reliable, cost-efficient solutions.
+At Wells Fargo, I lead data engineering projects focused on Spark, Airflow, and Snowflake within Azure. My work centers on performance optimization, data quality, and cloud migration to modernize enterprise analytics.
 
-Before Wells Fargo, I worked at CareSource, Infosys, and Innominds, where I engineered backend systems, automated data pipelines, and built cloud-based platforms using GCP, AWS, and PySpark. These experiences helped me bridge data engineering with backend logic to create efficient, production-ready solutions.
+Before that, I worked as a Senior Data Engineer at CareSource, where I helped design a modern Data Lakehouse using Databricks and Delta Lake, and built real-time streaming systems with Kafka. I also led efforts to automate CI/CD pipelines, implement data lineage with AWS Glue, and modernize legacy ETL workflows to reduce processing time and cost.
 
-I’m passionate about clean code, scalable design, and systems that are secure and effortless to maintain. Outside of work, I enjoy exploring AI-powered APIs, cloud automation, and emerging data technologies that make engineering both smarter and simpler.`,
+I’m passionate about data systems that are not just powerful, but maintainable and efficient. I believe great engineering is about combining scalability with simplicity making sure every solution adds real value. Outside of work, I love exploring new data tools, learning emerging technologies in cloud and automation, and working on side projects that challenge how data can be used creatively.`,
 };
 
 

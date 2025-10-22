@@ -31,7 +31,7 @@ const HeroSection: React.FC = () => {
                 transition={{ delay: 0.3, duration: 0.5 }}
                 className="inline-block px-3 py-1 text-sm font-medium rounded-full bg-primary-100 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 mb-4"
               >
-                Senior Python Backend & Cloud Engineer
+                Data Engineer | Building Scalable Cloud & Analytics Solutions
               </motion.span>
               <motion.h1 
                 initial={{ opacity: 0, y: 20 }}
@@ -47,7 +47,7 @@ const HeroSection: React.FC = () => {
                 transition={{ delay: 0.5, duration: 0.5 }}
                 className="text-sm md:text-base text-dark-500 dark:text-gray-300 mb-8 max-w-2xl"
               >
-                I design and deliver high-performance, cloud-native applications and data-driven backend systems. My work focuses on building secure APIs, real-time data pipelines, and event-driven architectures using Python, FastAPI, Flask, and GCP services like Pub/Sub, BigQuery, and Cloud Run. I automate CI/CD workflows with GitLab CI/CD and Cloud Build, containerize applications with Docker and Kubernetes, and manage cloud infrastructure across AWS and GCP using Terraform. I also integrate observability and security tools such as Prometheus, Grafana, SonarQube, and Snyk to ensure reliability, compliance, and performance at scale. With a strong focus on scalability, cost efficiency, and resilience, I deliver production-ready systems that power analytics, improve automation, and support enterprise decision-making.
+                I design and deliver scalable, cloud-based data engineering solutions that power analytics and business intelligence. My work focuses on building reliable ETL pipelines, modern data lakehouse architectures, and real-time streaming systems using Python, Spark, Airflow, and Snowflake. I modernize legacy platforms through cloud migrations on AWS and Azure, implementing secure, automated workflows with Terraform, Docker, and CI/CD pipelines. I also integrate observability and data quality frameworks like Prometheus, Grafana, and Great Expectations to ensure reliability, compliance, and accuracy at scale. With a strong focus on performance, automation, and cost efficiency, I deliver production-grade data systems that transform complex data into actionable insights for enterprises.
               </motion.p>
             </div>
 
