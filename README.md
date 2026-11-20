@@ -1,5 +1,7 @@
 # 🌐 Personal Portfolio Website
 
+saicharanveldurthy.com
+
 This is my personal portfolio website built to showcase my projects, skills, certifications, and professional journey. It serves as a central hub for recruiters, collaborators, and peers to learn more about my background and work.
 
 ---
@@ -60,9 +62,9 @@ This project can be deployed using any static site host such as:
 ## 👤 Author
 
 **Saicharan Veldurthy**  
-📍 Mesa, Arizona  
-📧 veldurthysaicharan5@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/veldurthy-saicharan/) | [GitHub](https://github.com/veldurthys1-git) | [Portfolio](https://veldurthys1-git.github.io/portfolio1/)
+📍 Las Vegas, NV  
+📧 veldurthy.sc.work@gmail.com
+🔗 [GitHub](https://github.com/veldurthys1-git) | [Portfolio](https://veldurthys1-git.github.io/portfolio1/)
 
 ---
 
