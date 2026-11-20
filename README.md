@@ -1,6 +1,6 @@
 # 🌐 Personal Portfolio Website
 
-saicharanveldurthy.com
+www.saicharanveldurthy.com
 
 This is my personal portfolio website built to showcase my projects, skills, certifications, and professional journey. It serves as a central hub for recruiters, collaborators, and peers to learn more about my background and work.
 
