@@ -12,198 +12,322 @@ export const navItems: NavItem[] = [
 
 
 export const skills: Skill[] = [
-  // Data Engineering & Lakehouse
-  { name: 'Python', level: 95, category: 'data' },
-  { name: 'SQL', level: 95, category: 'data' },
-  { name: 'Apache Spark / PySpark', level: 90, category: 'data' },
-  { name: 'Apache Airflow', level: 90, category: 'data' },
-  { name: 'Delta Lake / Lakehouse', level: 85, category: 'data' },
-  { name: 'Kafka (Streaming)', level: 80, category: 'data' },
-  { name: 'dbt', level: 75, category: 'data' },
-  { name: 'ETL / ELT Design', level: 90, category: 'data' },
-  { name: 'Data Modeling (Star & Snowflake)', level: 85, category: 'data' },
-  { name: 'Partitioning & Performance Tuning', level: 85, category: 'data' },
+  // IBM Z Mainframe Development
+  { name: 'IBM z/OS', level: 90, category: 'data' },
+  { name: 'COBOL', level: 95, category: 'data' },
+  { name: 'JCL', level: 95, category: 'data' },
+  { name: 'Assembler', level: 85, category: 'data' },
+  { name: 'CICS', level: 85, category: 'data' },
+  { name: 'TSO/ISPF', level: 90, category: 'data' },
+  { name: 'SDSF', level: 85, category: 'data' },
+  { name: 'DFSORT', level: 85, category: 'data' },
+  { name: 'VSAM', level: 85, category: 'data' },
+  { name: 'PDS/PDSE', level: 90, category: 'data' },
+  { name: 'GDG', level: 85, category: 'data' },
+  { name: 'COBOL Copybooks', level: 90, category: 'data' },
+  { name: 'BMS Maps', level: 75, category: 'data' },
+  { name: 'Batch Processing', level: 95, category: 'data' },
+  { name: 'JCL PROCs', level: 90, category: 'data' },
+  { name: 'Abend Analysis', level: 85, category: 'data' },
+  { name: 'Dataset Management', level: 90, category: 'data' },
 
-  // Databases & Warehousing
-  { name: 'Snowflake', level: 90, category: 'databases' },
+  // Databases & SQL
+  { name: 'IBM DB2', level: 90, category: 'databases' },
+  { name: 'SQL', level: 90, category: 'databases' },
+  { name: 'Embedded SQL', level: 90, category: 'databases' },
+  { name: 'Cursor Processing', level: 85, category: 'databases' },
+  { name: 'SQLCODE Handling', level: 85, category: 'databases' },
+  { name: 'PostgreSQL', level: 80, category: 'databases' },
   { name: 'AWS Redshift', level: 80, category: 'databases' },
-  { name: 'BigQuery', level: 75, category: 'databases' },
-  { name: 'PostgreSQL', level: 85, category: 'databases' },
-  { name: 'MySQL', level: 80, category: 'databases' },
-  { name: 'SQL Server', level: 75, category: 'databases' },
-  { name: 'MongoDB', level: 65, category: 'databases' },
+
+  // Data Engineering & Programming
+  { name: 'Python', level: 90, category: 'data' },
+  { name: 'Java', level: 75, category: 'data' },
+  { name: 'Apache Spark', level: 90, category: 'data' },
+  { name: 'PySpark', level: 90, category: 'data' },
+  { name: 'Apache Airflow', level: 85, category: 'data' },
+  { name: 'Apache Kafka', level: 85, category: 'data' },
+  { name: 'SAS', level: 80, category: 'data' },
+  { name: 'ETL Pipelines', level: 90, category: 'data' },
+  { name: 'Data Management', level: 85, category: 'data' },
 
   // Cloud Platforms & Services
   { name: 'AWS', level: 85, category: 'cloud' },
-  { name: 'Azure', level: 85, category: 'cloud' },
-  { name: 'GCP', level: 70, category: 'cloud' },
-
-  // AWS (detail)
-  { name: 'S3', level: 85, category: 'cloud' },
-  { name: 'Glue (Catalog/ETL)', level: 80, category: 'cloud' },
-  { name: 'EMR', level: 80, category: 'cloud' },
-  { name: 'Redshift (DW)', level: 80, category: 'cloud' },
-
-  // Azure (detail)
-  { name: 'Azure Data Factory', level: 90, category: 'cloud' },
-  { name: 'Azure Synapse Analytics', level: 85, category: 'cloud' },
-  { name: 'Azure Databricks', level: 85, category: 'cloud' },
-  { name: 'Azure Key Vault / IAM', level: 80, category: 'cloud' },
-
-  // GCP (from skills list)
-  { name: 'Dataflow', level: 65, category: 'cloud' },
+  { name: 'Microsoft Azure', level: 80, category: 'cloud' },
+  { name: 'Amazon EC2', level: 85, category: 'cloud' },
+  { name: 'Amazon S3', level: 85, category: 'cloud' },
+  { name: 'Amazon RDS', level: 80, category: 'cloud' },
+  { name: 'AWS Lambda', level: 80, category: 'cloud' },
 
   // DevOps & Automation
   { name: 'Git', level: 90, category: 'devops' },
-  { name: 'CI/CD (Pipelines)', level: 90, category: 'devops' },
-  { name: 'Jenkins', level: 80, category: 'devops' },
-  { name: 'GitHub Actions', level: 75, category: 'devops' },
-  { name: 'Terraform', level: 80, category: 'devops' },
+  { name: 'Jenkins', level: 85, category: 'devops' },
+  { name: 'GitHub Actions', level: 85, category: 'devops' },
+  { name: 'CI/CD Pipelines', level: 90, category: 'devops' },
   { name: 'Docker', level: 85, category: 'devops' },
-  { name: 'Kubernetes', level: 75, category: 'devops' },
-  { name: 'Shell Scripting', level: 75, category: 'devops' },
+  { name: 'Kubernetes', level: 80, category: 'devops' },
+  { name: 'Terraform', level: 80, category: 'devops' },
+  { name: 'Bash Scripting', level: 80, category: 'devops' },
+  { name: 'Agile / Scrum', level: 90, category: 'devops' },
+  { name: 'SDLC', level: 90, category: 'devops' },
 
-  // Quality, Governance & Security
-  { name: 'Great Expectations (DQ)', level: 80, category: 'governance' },
-  { name: 'Data Lineage & Catalog (Glue Catalog)', level: 80, category: 'governance' },
-  { name: 'Metadata Management', level: 80, category: 'governance' },
-  { name: 'Data Security & Compliance (SOC 2, GDPR)', level: 75, category: 'governance' },
+  // Backend Development
+  { name: 'FastAPI', level: 85, category: 'governance' },
+  { name: 'Flask', level: 85, category: 'governance' },
+  { name: 'Django', level: 80, category: 'governance' },
+  { name: 'RESTful APIs', level: 90, category: 'governance' },
+  { name: 'Microservices', level: 85, category: 'governance' },
+  { name: 'JWT Authentication', level: 85, category: 'governance' },
 
-  // Observability & Monitoring
+  // Monitoring & Production Support
   { name: 'Prometheus', level: 80, category: 'observability' },
-  { name: 'Grafana', level: 80, category: 'observability' },
-  { name: 'Logging & Monitoring', level: 85, category: 'observability' },
+  { name: 'Amazon CloudWatch', level: 85, category: 'observability' },
+  { name: 'Production Support', level: 90, category: 'observability' },
+  { name: 'Root Cause Analysis', level: 90, category: 'observability' },
+  { name: 'Application Debugging', level: 90, category: 'observability' },
+  { name: 'Performance Optimization', level: 85, category: 'observability' },
+  { name: 'Unit Testing', level: 90, category: 'observability' },
+  { name: 'Integration Testing', level: 85, category: 'observability' },
+  { name: 'Regression Testing', level: 85, category: 'observability' },
+  { name: 'UAT', level: 85, category: 'observability' },
 
-  // Ways of Working
-  { name: 'Agile / Scrum', level: 85, category: 'devops' },
-  { name: 'Cross-Functional Collaboration', level: 85, category: 'devops' }
+  // Mainframe Utilities & Collaboration
+  { name: 'Connect:Direct', level: 80, category: 'devops' },
+  { name: 'WinSCP', level: 85, category: 'devops' },
+  { name: 'IBM Developer for z/OS', level: 85, category: 'devops' },
+  { name: 'Application Modernization', level: 85, category: 'devops' },
+  { name: 'Cross-Functional Collaboration', level: 90, category: 'devops' }
 ];
 
 
-
-
-
-
 export const professionalExperience: Experience[] = [
+
   {
-    title: 'Lead Data Engineer',
-    company: 'Wells Fargo',
-    location: 'Arizona, USA',
-    startDate: 'June 2024',
-    endDate: 'Present',
+    title: 'Software Engineer',
+    company: 'State Farm Mutual Auto. Ins. Co.',
+    location: 'Tempe, AZ',
+    startDate: 'Feb 2026',
+    endDate: 'Nov 2026',
     description: [
-      'Architected and managed enterprise-scale data pipelines using Apache Spark, Airflow, and Snowflake to power 200+ business-critical reports and analytics workloads.',
-      'Led the migration of legacy Hadoop workloads to Azure Data Factory and Synapse Analytics, reducing data latency by 50% and modernizing infrastructure.',
-      'Directed and mentored a team of 4 data engineers, standardizing coding practices and implementing robust data quality frameworks that achieved 99.8% reliability.',
-      'Optimized ETL orchestration within Azure Data Factory through parallelization and efficient resource allocation, reducing job execution time by 45%.',
-      'Implemented real-time monitoring using Prometheus and Grafana, improving issue detection and resolution speed across data pipelines.',
-      'Designed secure data access policies using Azure IAM and Key Vault, ensuring SOC2 compliance and complete audit traceability.',
-      'Collaborated with cross-functional analytics teams to deliver automated, scalable, and compliant data solutions supporting enterprise decision-making.'
+      'Engineered and maintained enterprise IBM z/OS applications using COBOL, JCL, Assembler, macros, and copybooks, supporting high-volume financial batch processing and improving application reliability by 20%.',
+      'Developed and optimized COBOL-DB2 programs and SQL queries across 10+ application modules, implementing data validation and record processing to reduce data discrepancies by 25%.',
+      'Designed, executed, and troubleshot 30+ JCL batch jobs using TSO/ISPF, SDSF, and DFSORT, analyzing execution failures and return codes to improve batch-processing efficiency by 35%.',
+      'Supported CICS online transaction processing and batch integration across 5+ interconnected components, resolving transaction failures and data inconsistencies to improve issue-resolution turnaround by 30%.',
+      'Performed advanced root cause analysis, COBOL/Assembler debugging, and application modernization, resolving 15+ complex defects and reducing recurring processing errors by 35%.',
+      'Managed 50+ mainframe datasets and secure file transfers using TSO, WinSCP, and Connect:Direct, maintaining 99%+ data accuracy through production and test validation.',
+      'Designed and executed 100+ unit, integration, and regression test scenarios across COBOL, DB2, CICS, and JCL workflows, achieving 95%+ test pass rates.',
+      'Collaborated with technical leads and business stakeholders across 6+ Agile/SDLC release cycles, supporting code reviews, technical documentation, and deployment readiness.'
     ],
     technologies: [
-      'Python',
-      'Apache Spark',
-      'Apache Airflow',
-      'Snowflake',
-      'Azure Data Factory',
-      'Azure Synapse',
-      'Databricks',
-      'Prometheus',
-      'Grafana',
-      'Azure Key Vault',
-      'Terraform',
-      'Git',
-      'SQL'
+      'IBM z/OS',
+      'IBM Z',
+      'COBOL',
+      'JCL',
+      'Assembler',
+      'DB2',
+      'SQL',
+      'CICS',
+      'TSO/ISPF',
+      'SDSF',
+      'DFSORT',
+      'VSAM',
+      'COBOL Copybooks',
+      'Macros',
+      'Batch Processing',
+      'Dataset Management',
+      'Connect:Direct',
+      'WinSCP',
+      'Root Cause Analysis',
+      'Application Modernization',
+      'Agile/Scrum',
+      'SDLC'
     ]
   },
   {
-    title: 'Senior Data Engineer',
-    company: 'CareSource',
-    location: 'Dayton, Ohio, USA',
-    startDate: 'June 2023',
-    endDate: 'May 2024',
+    title: 'Software Engineer',
+    company: 'Target Corporation',
+    location: 'San Francisco, CA',
+    startDate: 'Feb 2025',
+    endDate: 'Feb 2026',
     description: [
-      'Designed and implemented a modern Data Lakehouse using Delta Lake on Databricks, managing over 10TB of data for enterprise analytics and reporting.',
-      'Built and maintained real-time streaming pipelines using Kafka and Spark Structured Streaming to enable low-latency analytics across multiple systems.',
-      'Migrated ETL workflows from Informatica to PySpark, reducing compute costs by 40% and improving maintainability.',
-      'Developed and orchestrated complex data workflows with Apache Airflow DAGs, improving SLA adherence from 85% to 98%.',
-      'Implemented automated unit testing and CI/CD pipelines for ETL processes, reducing production downtime by 35% and improving release frequency.',
-      'Collaborated with governance teams to establish data lineage and cataloging using AWS Glue, ensuring metadata consistency and audit compliance.',
-      'Partnered with analytics and BI teams to deliver trusted datasets that accelerated business insights by 30%.'
+      'Developed and maintained 8+ COBOL-DB2 application modules on IBM z/OS, implementing embedded SQL, cursor processing, and SQLCODE handling to improve data retrieval efficiency by 15%.',
+      'Enhanced 12+ COBOL programs by modifying business logic, updating copybooks, optimizing file-handling routines, and conducting impact analysis, reducing application defects by 20%.',
+      'Configured and maintained 20+ JCL batch jobs using cataloged PROCs, GDGs, and conditional execution, troubleshooting COBOL abends, DB2 SQL errors, and 25+ production incidents to reduce batch failures by 18%.',
+      'Delivered application enhancements through Agile/SDLC processes, performing root cause analysis, unit testing, UAT, and production deployment support while collaborating with cross-functional teams to achieve 95% on-time delivery.'
     ],
     technologies: [
-      'Python',
-      'PySpark',
-      'Apache Airflow',
-      'Kafka',
-      'Databricks',
-      'AWS Glue',
-      'Delta Lake',
-      'AWS S3',
-      'Terraform',
-      'CI/CD',
+      'IBM z/OS',
+      'IBM Z',
+      'COBOL',
+      'DB2',
+      'JCL',
       'SQL',
-      'Git'
+      'Embedded SQL',
+      'Cursor Processing',
+      'SQLCODE Handling',
+      'COBOL Copybooks',
+      'File Handling',
+      'Cataloged PROCs',
+      'GDG',
+      'Batch Processing',
+      'Abend Analysis',
+      'Root Cause Analysis',
+      'Unit Testing',
+      'UAT',
+      'Production Support',
+      'Agile/Scrum',
+      'SDLC'
+    ]
+  },
+  {
+    title: 'Engineer',
+    company: 'Merizon Technologies',
+    location: 'San Francisco, CA',
+    startDate: 'Apr 2024',
+    endDate: 'Dec 2024',
+    description: [
+      'Worked with IBM z/OS, TSO/ISPF, PDS/PDSE, and VSAM, gaining practical experience in mainframe environments, dataset management, and legacy application workflows.',
+      'Developed and tested COBOL programs using COMP-3, working-storage variables, copybooks, and file-handling techniques, while executing JCL jobs and monitoring batch processing.',
+      'Assisted with DB2 SQL operations and CICS transaction workflows, gaining exposure to BMS maps, application testing, and mainframe transaction processing.'
+    ],
+    technologies: [
+      'IBM z/OS',
+      'IBM Z',
+      'COBOL',
+      'JCL',
+      'DB2',
+      'SQL',
+      'CICS',
+      'TSO/ISPF',
+      'PDS/PDSE',
+      'VSAM',
+      'COMP-3',
+      'COBOL Copybooks',
+      'BMS Maps',
+      'File Handling',
+      'Dataset Management',
+      'Batch Processing',
+      'Application Testing'
     ]
   }
 ];
 
 export const additionalExperience: Experience[] = [
   {
-    title: 'Data Engineer',
-    company: 'Infosys Ltd.',
-    location: 'Hyderabad, India',
-    startDate: 'June 2021',
+    title: 'Software Engineer',
+    company: 'Infosys',
+    location: 'India',
+    startDate: 'Jun 2021',
     endDate: 'Dec 2022',
     description: [
-      'Developed Spark-based ETL pipelines on AWS EMR processing 1TB+ of data daily, integrating Kafka for near real-time data ingestion.',
-      'Designed and implemented data warehouse schemas using Star and Snowflake models in Snowflake and Redshift, improving query performance by 45%.',
-      'Automated infrastructure and deployment workflows using Terraform and GitHub Actions, standardizing CI/CD processes and cutting release time by 60%.',
-      'Established data validation frameworks with Great Expectations, ensuring 99% data consistency across analytics systems.',
-      'Optimized query performance through SQL partitioning, clustering, and compression strategies, reducing compute costs by 25%.',
-      'Collaborated with data scientists and BI teams to deliver analytics datasets for key business initiatives and improved insight delivery.',
-      'Mentored junior engineers in PySpark optimization, SQL tuning, and pipeline best practices, fostering team efficiency and skill growth.'
+      'Engineered and deployed large-scale data processing pipelines using Apache Spark, PySpark, and SAS, accelerating data transformation processes by 45% for enterprise analytics.',
+      'Designed and automated ETL workflows using Apache Airflow and Kafka, streamlining data ingestion and reducing manual intervention by 80%.',
+      'Developed and optimized RESTful APIs using FastAPI and Flask, improving response efficiency and integration with front-end applications and microservices.',
+      'Deployed and managed containerized applications using Docker and Kubernetes across AWS and Azure, achieving 99.5% uptime and scalable performance.',
+      'Implemented CI/CD automation pipelines using Jenkins and GitHub Actions, reducing deployment time from 2 hours to under 15 minutes.',
+      'Automated infrastructure provisioning using Terraform and Infrastructure as Code (IaC), maintaining consistent cloud configurations across multiple environments.',
+      'Monitored system performance using Prometheus and CloudWatch and optimized DB2 queries on IBM Z mainframe, collaborating with cross-functional teams to improve system reliability and performance.'
     ],
     technologies: [
       'Python',
-      'PySpark',
-      'AWS EMR',
-      'Apache Kafka',
-      'Snowflake',
-      'Redshift',
-      'Terraform',
-      'Great Expectations',
-      'GitHub Actions',
       'SQL',
-      'AWS S3'
+      'Apache Spark',
+      'PySpark',
+      'SAS',
+      'Apache Airflow',
+      'Apache Kafka',
+      'FastAPI',
+      'Flask',
+      'RESTful APIs',
+      'Microservices',
+      'AWS',
+      'Microsoft Azure',
+      'Docker',
+      'Kubernetes',
+      'Terraform',
+      'Jenkins',
+      'GitHub Actions',
+      'CI/CD',
+      'Infrastructure as Code',
+      'Prometheus',
+      'Amazon CloudWatch',
+      'IBM Z',
+      'DB2',
+      'Git'
     ]
   },
   {
-    title: 'Associate Data Engineer',
-    company: 'Innominds Software Pvt. Ltd.',
-    location: 'Bangalore, India',
-    startDate: 'Aug 2020',
-    endDate: 'May 2021',
+    title: 'Software Engineer',
+    company: 'Innominds Pvt. Ltd.',
+    location: 'India',
+    startDate: 'Oct 2020',
+    endDate: 'Jun 2021',
     description: [
-      'Developed ETL workflows using Python and SQL to process large datasets from REST APIs, JSON, and CSV sources for analytics systems.',
-      'Built PySpark-based data processing jobs on AWS S3 and Redshift, reducing overall processing time by 30%.',
-      'Implemented data validation and transformation automation with reusable Python modules and SQL checks, improving accuracy by 25%.',
-      'Managed Airflow DAGs for job orchestration and monitoring, reducing manual intervention by 40%.',
-      'Optimized SQL queries and database schemas to enhance analytics query performance by up to 50%.',
-      'Supported the migration of on-prem databases to AWS Cloud with zero downtime, improving scalability and cost efficiency.',
-      'Collaborated with BI teams to deliver high-performance reporting datasets and ensure consistent data availability.'
+      'Developed and modified Assembler and COBOL programs on IBM Z mainframe using IBM Developer for z/OS and CICS, executing JCL batch jobs and integrating DB2 to maintain accurate transaction records.',
+      'Integrated mainframe batch processing with Apache Kafka for real-time event-driven architectures, leveraging CICS channels to support scalable transaction workflows.',
+      'Collaborated with DevOps teams to design CI/CD pipelines using Jenkins and GitHub Actions, reducing manual deployment errors by 90%.',
+      'Deployed and managed applications on AWS using EC2, S3, RDS, and Lambda, ensuring high availability and reducing application latency by 25%.',
+      'Designed and implemented ETL pipelines using Apache Airflow and PySpark to process large-scale datasets and support enterprise analytics teams.',
+      'Implemented monitoring and alerting using Amazon CloudWatch and Prometheus, enabling proactive issue resolution and reducing system downtime by 35%.'
+    ],
+    technologies: [
+      'IBM Z',
+      'IBM Developer for z/OS',
+      'COBOL',
+      'Assembler',
+      'JCL',
+      'DB2',
+      'CICS',
+      'Apache Kafka',
+      'Batch Processing',
+      'CICS Channels',
+      'Apache Airflow',
+      'PySpark',
+      'AWS',
+      'Amazon EC2',
+      'Amazon S3',
+      'Amazon RDS',
+      'AWS Lambda',
+      'Docker',
+      'Jenkins',
+      'GitHub Actions',
+      'CI/CD',
+      'Amazon CloudWatch',
+      'Prometheus'
+    ]
+  },  
+  {
+    title: 'Site Reliability Engineer',
+    company: 'Aditi Digital Solutions',
+    location: 'India',
+    startDate: 'Jan 2020',
+    endDate: 'Sep 2020',
+    description: [
+      'Engineered scalable RESTful APIs using Python, Flask, and Django, optimizing database queries and caching to improve backend performance by 30% while implementing secure JWT-based authentication.',
+      'Led cloud migration initiatives from on-premise infrastructure to AWS, reducing infrastructure costs by 20% and improving deployment scalability and system reliability.',
+      'Automated ETL workflows using Apache Airflow, streamlining data ingestion and processing to improve data availability for analytics teams by 25%.',
+      'Implemented CI/CD pipelines using GitHub Actions and Jenkins, containerizing microservices with Docker and Kubernetes to achieve 95% uptime and reduce deployment time from hours to minutes.'
     ],
     technologies: [
       'Python',
-      'PySpark',
-      'Apache Airflow',
-      'AWS S3',
-      'AWS Redshift',
+      'Flask',
+      'Django',
+      'RESTful APIs',
       'SQL',
-      'Pandas',
-      'ETL',
+      'JWT Authentication',
+      'Database Optimization',
+      'Caching',
+      'AWS',
+      'Cloud Migration',
+      'Apache Airflow',
+      'ETL Pipelines',
       'Docker',
-      'Shell Scripting'
+      'Kubernetes',
+      'Jenkins',
+      'GitHub Actions',
+      'CI/CD',
+      'Microservices',
+      'Git'
     ]
   }
 ];
@@ -311,22 +435,22 @@ export const education: Education[] = [
 export const testimonials: Testimonial[] = [
   {
     content:
-      "Saicharan is an outstanding backend engineer who consistently delivers secure, reliable, and scalable cloud solutions. His work on Python microservices and GCP automation at Wells Fargo reduced deployment time by 40% and significantly improved API performance across production systems.",
-    author: "— John Matthews",
-    role: "Senior Engineering Manager",
-    company: "Wells Fargo",
+      "Saicharan demonstrated strong technical expertise in IBM Z mainframe development at State Farm. His contributions to COBOL, JCL, DB2, and CICS applications helped improve batch processing efficiency, application reliability, and production support. His problem-solving skills and dedication to delivering quality solutions made him a valuable team member.",
+    author: "— Dusty Monberg",
+    role: "Enterprise Tech Manager",
+    company: "State Farm Mutual Auto. Ins. Co.",
   },
   {
     content:
-      "Saicharan’s technical expertise and problem-solving mindset made a real difference in our data engineering initiatives. His work on real-time pipelines and compliance automation using FastAPI, Terraform, and GCP improved reliability, observability, and compliance tracking across multiple environments.",
-    author: "— Sophia Turner",
-    role: "Lead Cloud Engineer",
-    company: "CareSource",
+      "Saicharan consistently demonstrated excellent problem-solving skills while working on enterprise mainframe applications. His experience with COBOL-DB2 development, JCL batch processing, and production troubleshooting contributed to improved system performance and application stability. He collaborated effectively with the team and delivered reliable solutions.",
+    author: "— Sofia Turner",
+    role: "Senior Software Engineer",
+    company: "Target Corporation",
   },
   {
     content:
-      "An exceptional Python developer with a deep understanding of both backend systems and modern DevOps practices. At Infosys, Saicharan built robust microservices and automated CI/CD workflows that improved team efficiency and reduced release times by 50%.",
-    author: "— Ravi Kulkarni",
+      "Saicharan brought valuable technical expertise to our data engineering and application development initiatives. His work with Apache Spark, PySpark, Airflow, AWS, and CI/CD automation improved data processing efficiency and streamlined deployment workflows. His adaptability and commitment to quality were evident throughout his contributions.",
+    author: "— Mareddy Surender",
     role: "Senior Engineering Manager",
     company: "Infosys Ltd.",
   },
@@ -340,37 +464,34 @@ export const socialLinks: SocialLink[] = [
     icon: 'Github',
   },
   {
-    platform: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/veldurthy-saicharan/',
-    icon: 'Linkedin',
-  },
-  {
     platform: 'Twitter',
     url: 'https://x.com/Veldurthysaich1',
     icon: 'Twitter',
   },
   {
     platform: 'Email',
-    url: 'mailto:veldurthys1@udayton.edu',
+    url: 'mailto:veldurthy.sc.work@gmail.com',
     icon: 'Mail',
   },
 ];
 
+
 export const aboutMe = {
   title: 'About Me',
-  description: `Hi, I’m Saicharan Veldurthy, a data engineer passionate about building scalable and reliable data systems that power real-world decisions. I enjoy turning complex, unstructured data into meaningful insights through efficient architecture and automation.
+  description: `Hi, I’m Saicharan Veldurthy, a Software Engineer with 5+ years of experience in IBM Z mainframe development, enterprise applications, cloud technologies, and data engineering. I specialize in building, maintaining, and optimizing reliable enterprise systems using COBOL, JCL, DB2, CICS, Assembler, and IBM z/OS.
 
-At Wells Fargo, I lead data engineering projects focused on Spark, Airflow, and Snowflake within Azure. My work centers on performance optimization, data quality, and cloud migration to modernize enterprise analytics.
+At State Farm, I worked on enterprise mainframe applications supporting high-volume batch processing and financial data operations. My responsibilities included COBOL-DB2 development, JCL batch job execution, CICS transaction processing, application debugging, and production support. I focused on improving application reliability, optimizing batch performance, and resolving complex technical issues.
 
-Before that, I worked as a Senior Data Engineer at CareSource, where I helped design a modern Data Lakehouse using Databricks and Delta Lake, and built real-time streaming systems with Kafka. I also led efforts to automate CI/CD pipelines, implement data lineage with AWS Glue, and modernize legacy ETL workflows to reduce processing time and cost.
+Previously, at Target Corporation, I developed and enhanced COBOL-DB2 applications, maintained JCL batch workflows, and supported production systems. During my time at Merizon Technologies, I strengthened my foundation in IBM z/OS, COBOL programming, dataset management, DB2, and CICS transaction processing.
 
-I’m passionate about data systems that are not just powerful, but maintainable and efficient. I believe great engineering is about combining scalability with simplicity making sure every solution adds real value. Outside of work, I love exploring new data tools, learning emerging technologies in cloud and automation, and working on side projects that challenge how data can be used creatively.`,
+Earlier in my career, I worked at Infosys, Innominds, and Aditi Digital Solutions, gaining experience in data engineering, backend development, cloud infrastructure, and DevOps. I worked with Python, Apache Spark, PySpark, Kafka, Airflow, AWS, Azure, Docker, Kubernetes, and CI/CD automation to build scalable applications and efficient data pipelines.
+
+I'm passionate about modernizing enterprise systems, optimizing application performance, and solving complex engineering challenges. I enjoy combining traditional mainframe technologies with modern cloud and automation practices to deliver reliable, secure, and maintainable solutions. I'm continuously expanding my technical expertise and exploring new ways to improve enterprise software systems.`,
 };
 
 
-
 export const contactInfo = {
-  email: 'veldurthys1@udayton.edu',
-  phone: '+1 (937)-829-0856',
-  location: 'Mesa, Arizona',
+  email: 'veldurthy.sc.work@gmail.com',
+  phone: '+1 (725)-222-9596',
+  location: 'Las Vegas, NV',
 };
